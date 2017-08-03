@@ -90,7 +90,7 @@ const uglify            = require('gulp-uglify');
 const pump              = require('pump');
 
 // Require sharp: npm install sharp
-const responsive        = require('gulp-responsive');
+const responsive        = require('gulp-responsive-images');
 const imagemin          = require('gulp-imagemin');
 const changed           = require('gulp-changed');
 
@@ -235,6 +235,10 @@ gulp.task('watch', function() {
     gulp.watch(paths.js, ['js']);
     gulp.watch(paths.scale, ['rs-img']);
     gulp.watch('src/**/*.html', ['html']);
+
+    gulp.src('src/data/**/*')
+        .pipe(gulp.dest('prod/data'));
+
 });
 
 // Default (when i gulp)

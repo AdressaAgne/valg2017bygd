@@ -1,1 +1,24 @@
 // Sass file
+
+$color: #f8f8f8;
+
+#tronderlag { height: 100vh; }
+
+figure, body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.mode-map{
+    width: 100vw;
+    height: 100vh;
+}
+
+.mode-list{
+
+}
+
+div[class^=icon-face-]{
+    background-color: 'blue';
+    background-image: url('images/pointer.png');
+}

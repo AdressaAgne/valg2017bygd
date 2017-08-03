@@ -1,0 +1,284 @@
+{
+  "osen" : {
+     "ID":"osen",
+     "Kommune":"Osen",
+     "Ordfører":"Johan Einar Høvik",
+     "Parti":"Ap"
+},
+  "roan" : {
+     "ID":"roan",
+     "Kommune":"Roan",
+     "Ordfører":"Einar Eian",
+     "Parti":"H"
+},
+  "afjord" : {
+     "ID":"afjord",
+     "Kommune":"Åfjord",
+     "Ordfører":"Vibeke Stjern ",
+     "Parti":"Ap"
+},
+  "bjugn" : {
+     "ID":"bjugn",
+     "Kommune":"Bjugn",
+     "Ordfører":"Ogne Undertun ",
+     "Parti":"Ap"
+},
+  "rissa" : {
+     "ID":"rissa",
+     "Kommune":"Rissa",
+     "Ordfører":"Ove Vollan ",
+     "Parti":"H"
+},
+  "froya" : {
+     "ID":"froya",
+     "Kommune":"Frøya",
+     "Ordfører":"Berit Flåmo",
+     "Parti":"Ap"
+},
+  "hitra" : {
+     "ID":"hitra",
+     "Kommune":"Hitra",
+     "Ordfører":"Ole Haugen ",
+     "Parti":"Ap"
+},
+  "snillfjord" : {
+     "ID":"snillfjord",
+     "Kommune":"Snillfjord",
+     "Ordfører":"Johan Lernes ",
+     "Parti":"Ap"
+},
+  "hemne" : {
+     "ID":"hemne",
+     "Kommune":"Hemne",
+     "Ordfører":"Odd Jarle Svanem ",
+     "Parti":"Sp"
+},
+  "orkdal" : {
+     "ID":"orkdal",
+     "Kommune":"Orkdal",
+     "Ordfører":"Oddbjørn Bang ",
+     "Parti":"Sp"
+},
+  "meldal" : {
+     "ID":"meldal",
+     "Kommune":"Meldal",
+     "Ordfører":"Are Hilstad",
+     "Parti":"Ap"
+},
+  "melhus" : {
+     "ID":"melhus",
+     "Kommune":"Melhus",
+     "Ordfører":"Gunnar Krogstad ",
+     "Parti":"Ap"
+},
+  "selbu" : {
+     "ID":"selbu",
+     "Kommune":"Selbu",
+     "Ordfører":"Ole Morten Balstad ",
+     "Parti":"Ap"
+},
+  "oppdal" : {
+     "ID":"oppdal",
+     "Kommune":"Oppdal",
+     "Ordfører":"Kirsti Welander",
+     "Parti":"Ap"
+},
+  "rennebu" : {
+     "ID":"rennebu",
+     "Kommune":"Rennebu",
+     "Ordfører":"Ola Øie ",
+     "Parti":"Ap"
+},
+  "midtre_gauldal" : {
+     "ID":"midtre_gauldal",
+     "Kommune":"Midtre Gauldal",
+     "Ordfører":"Sivert Moen ",
+     "Parti":"Ap"
+},
+  "tydal" : {
+     "ID":"tydal",
+     "Kommune":"Tydal",
+     "Ordfører":"Ole Bjarne Østby ",
+     "Parti":"Sp"
+},
+  "roros" : {
+     "ID":"roros",
+     "Kommune":"Røros",
+     "Ordfører":"Hans Vintervold ",
+     "Parti":"Ap"
+},
+  "agdenes" : {
+     "ID":"agdenes",
+     "Kommune":"Agdenes",
+     "Ordfører":"Oddvar Indergård",
+     "Parti":"Bygdeliste"
+},
+  "holtalen" : {
+     "ID":"holtalen",
+     "Kommune":"Holtålen",
+     "Ordfører":"Jan Håvard Refsethås",
+     "Parti":"Sp"
+},
+  "klaebu" : {
+     "ID":"klaebu",
+     "Kommune":"Klæbu",
+     "Ordfører":"Kirsti Tømmervold",
+     "Parti":"Ap"
+},
+  "malvik" : {
+     "ID":"malvik",
+     "Kommune":"Malvik",
+     "Ordfører":"Ingrid Aune",
+     "Parti":"Ap"
+},
+  "skaun" : {
+     "ID":"skaun",
+     "Kommune":"Skaun",
+     "Ordfører":"Jon P. Husby ",
+     "Parti":"Sp"
+},
+  "orland" : {
+     "ID":"orland",
+     "Kommune":"Ørland",
+     "Ordfører":"Tom Myrvold",
+     "Parti":"H"
+},
+  "flatanger" : {
+     "ID":"flatanger",
+     "Kommune":"Flatanger",
+     "Ordfører":"Olav Jørgen Bjørkås ",
+     "Parti":"Sp"
+},
+  "fosnes" : {
+     "ID":"fosnes",
+     "Kommune":"Fosnes",
+     "Ordfører":"Trygve Sandvik ",
+     "Parti":"Sp"
+},
+  "frosta" : {
+     "ID":"frosta",
+     "Kommune":"Frosta",
+     "Ordfører":"Trine Haug ",
+     "Parti":"Sp"
+},
+  "grong" : {
+     "ID":"grong",
+     "Kommune":"Grong",
+     "Ordfører":"Skjalg Åkerøy",
+     "Parti":"Ap"
+},
+  "hoylandet" : {
+     "ID":"hoylandet",
+     "Kommune":"Høylandet",
+     "Ordfører":"Hege Norheim-Viken",
+     "Parti":"Sp"
+},
+  "inderoy" : {
+     "ID":"inderoy",
+     "Kommune":"Inderøy",
+     "Ordfører":"Ida Stuberg",
+     "Parti":"Sp"
+},
+  "leka" : {
+     "ID":"leka",
+     "Kommune":"Leka",
+     "Ordfører":"Per Helge Johansen",
+     "Parti":"Sp"
+},
+  "leksvik" : {
+     "ID":"leksvik",
+     "Kommune":"Leksvik",
+     "Ordfører":"Steinar Saghaug",
+     "Parti":"H"
+},
+  "levanger" : {
+     "ID":"levanger",
+     "Kommune":"Levanger",
+     "Ordfører":"Robert Svarva",
+     "Parti":"Ap"
+},
+  "lierne" : {
+     "ID":"lierne",
+     "Kommune":"Lierne",
+     "Ordfører":"Bente Estil",
+     "Parti":"Ap"
+},
+  "meraker" : {
+     "ID":"meraker",
+     "Kommune":"Meråker",
+     "Ordfører":"Kari Anita Furnes",
+     "Parti":"Sp"
+},
+  "namdalseid" : {
+     "ID":"namdalseid",
+     "Kommune":"Namdalseid",
+     "Ordfører":"Steinar Lyngstad ",
+     "Parti":"Sp"
+},
+  "namsos" : {
+     "ID":"namsos",
+     "Kommune":"Namsos",
+     "Ordfører":"Arnhild Holstad ",
+     "Parti":"Ap"
+},
+  "naeroy" : {
+     "ID":"naeroy",
+     "Kommune":"Nærøy",
+     "Ordfører":"Steinar Aspli ",
+     "Parti":"Sp"
+},
+  "overhalla" : {
+     "ID":"overhalla",
+     "Kommune":"Overhalla",
+     "Ordfører":"Per Olav Tyldum ",
+     "Parti":"Sp"
+},
+  "royrvik" : {
+     "ID":"royrvik",
+     "Kommune":"Røyrvik",
+     "Ordfører":"Hans Oskar Devik ",
+     "Parti":"Sp"
+},
+  "snasa" : {
+     "ID":"snasa",
+     "Kommune":"Snåsa",
+     "Ordfører":"Tone Våg ",
+     "Parti":"Ap"
+},
+  "steinkjer" : {
+     "ID":"steinkjer",
+     "Kommune":"Steinkjer",
+     "Ordfører":"Bjørn Arild Gram ",
+     "Parti":"Sp"
+},
+  "verdal" : {
+     "ID":"verdal",
+     "Kommune":"Verdal",
+     "Ordfører":"Bjørn Iversen ",
+     "Parti":"Ap"
+},
+  "stjordal" : {
+     "ID":"stjordal",
+     "Kommune":"Stjørdal",
+     "Ordfører":"Ivar Vigdenes ",
+     "Parti":"Sp"
+},
+  "verran" : {
+     "ID":"verran",
+     "Kommune":"Verran",
+     "Ordfører":"Anders Lindstrøm ",
+     "Parti":"Ap"
+},
+  "vikna" : {
+     "ID":"vikna",
+     "Kommune":"Vikna",
+     "Ordfører":"Amund Hellesø ",
+     "Parti":"Ap"
+},
+  "namsskogan" : {
+     "ID":"namsskogan",
+     "Kommune":"Namsskogan",
+     "Ordfører":"Stian Brekkvassmo",
+     "Parti":"Ap"
+}
+ }
