@@ -1,0 +1,54 @@
+{
+  "name": "boilerplate-adressa-jonas-og-agne",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A simple boilerplate for Jonas and Agne to start new projects with",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp-changed": "^3.1.0",
+    "jquery": "^3.2.1",
+    "run-sequence": "^2.1.0",
+    "sharp": "^0.18.2",
+    "autoprefixer": "^6.4.0",
+    "cssnano": "^3.7.4",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-postcss": "^6.1.1",
+    "gulp-responsive": "^2.8.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.8",
+    "gulp-watch": "^4.3.9",
+    "imager.js": "^0.5.0",
+    "pump": "^1.0.1",
+    "chalk": "^2.0.0",
+    "gulp-replace": "^0.5.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ondjazz/awesomesauce.git"
+  },
+  "keywords": [
+    "agne",
+    "jonas",
+    "adressa",
+    "boilerplate",
+    "gulp",
+    "git"
+  ],
+  "author": "Agne & Jonas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ondjazz/awesomesauce/issues"
+  },
+  "homepage": "https://github.com/ondjazz/awesomesauce#readme"
+}
