@@ -1,6 +1,81 @@
+$parti-h: #004E8B;
+$parti-sp: #69BE28;
+$parti-ap: #E4002B;
+$parti-ll: gray;
+
+.mode-map-info, #trondelag{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0px;
+    transition: all .4s ease;
+    background-color: color(background);
+    transform: translateZ(0);
+}
+
+.mode-map-info{
+    left: 100%;
+}
+
+.mode-map-info{
+    &__content{
+        padding: 20px;
+        font-family: font(system);
+        p {
+            margin: 10px 0px;
+        }
+    }
+
+    &__image{
+        border-radius: 250px;
+        width: 150px;
+        height: 150px;
+        background-size: cover;
+        border: 2px solid color(white);
+        box-shadow: 0px 5px 10px 3px rgba(0, 0, 0, .2);
+        margin-left: 50%;
+        transform: translate(-50%);
+    }
+
+    &__bar{
+        width: 100%;
+        height: 60px;
+        padding-left: 5px;
+        line-height: 60px;
+        background-color: color(primary);
+        &--title{
+            font-family: font(headline);
+            color: color(white);
+
+            width: calc(100% - 30px);
+            float: left;
+        }
+        &--close{
+            width: 30px;
+            font-size: 20px;
+            float: right;
+            color: color(white);
+        }
+    }
+    &--parti{
+        .h{
+            background-color: $parti-h;
+        }
+        .ap{
+            background-color: $parti-ap;
+        }
+        .sp{
+            background-color: $parti-sp;
+        }
+        .ll{
+            background-color: $parti-ll;
+        }
+    }
+}
+
+
 .mode-map{
-	width: 100vw;
-	height: 100vh;
+
 }
 
 .mode-list{
@@ -13,7 +88,10 @@
     border-radius: 50px;
     width: 40px;
     height: 40px;
-    background-color: red !important;
+    background-color: red;
+    border: 1px solid lime;
+    box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, .2);
+
     background-position: 0px 10px;
 	background-image: url('../images/oorjG.png');
 }
@@ -21,11 +99,9 @@
 $i: 0;
 $j: 0;
 @each $kommune in 'hemne', 'snillfjord', 'hitra', 'froya', 'orland', 'agdenes', 'rissa', 'bjugn', 'afjord', 'roan', 'osen', 'oppdal', 'rennebu', 'meldal', 'orkdal', 'roros', 'holtalen', 'midtre_gauldal', 'melhus', 'skaun', 'klaebu', 'malvik', 'selbu', 'tydal', 'steinkjer', 'namsos', 'meraker', 'stjordal', 'frosta', 'leksvik', 'levanger', 'verdal', 'inderoy', 'verran', 'namdalseid', 'inderoy', 'snasa', 'lierne', 'royrvik', 'namsskogan', 'grong', 'hoylandet', 'overhalla', 'fosnes', 'flatanger', 'vikna', 'naeroy', 'leka' {
-
     .icon-face-#{$kommune}{
         background-position: (64px * $i) (64px * $j);
     }
-
     $i: $i + 1;
     @if($i == 10){
         $j: $j + 1;

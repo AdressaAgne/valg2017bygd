@@ -239,7 +239,7 @@ gulp.task('watch', function() {
 	gulp.watch(paths.scale, ['rs-img']);
 	gulp.watch('src/**/*.html', ['html']);
 
-	gulp.src([paths.fonts, paths.gfx, paths.data])
+	gulp.src(['src/**', '!src/js/**/*', '!src/scss/**/*', '!src/scale/**/*', '!src/scale', '!src/scss'])
 	.pipe(changed('prod'))
 	.pipe(gulp.dest('prod'));
 
