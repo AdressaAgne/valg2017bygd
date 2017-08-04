@@ -77,22 +77,18 @@ $breakpoints:(
 
 // MIXINS
 
-	// Fontface (revise to new syntax (Woff) )
+	// Fontface
 	@mixin fontface($name: Arial, $folder: arial, $filename: arial, $weight: 400, $style: normal) {
 		@font-face {
 			font-family: "#{$name}";
 			font-weight: $weight;
 			font-style: $style;
 			@if $style == italic {
-				src: url("../fonts/#{$folder}/#{$filename}_#{$weight}_italic.eot?#iefix") format("embedded-opentype"),
-				url("../fonts/#{$folder}/#{$filename}_#{$weight}_italic.woff") format("woff"),
-				url("../fonts/#{$folder}/#{$filename}_#{$weight}_italic.ttf")  format("truetype"),
-				url("../fonts/#{$folder}/#{$filename}_#{$weight}_italic.svg##{$folder}/#{$filename}") format("svg");
+				src: url("../fonts/#{$folder}/#{$filename}_#{$weight}_italic.woff2") format("woff2"),
+				url("../fonts/#{$folder}/#{$filename}_#{$weight}_italic.woff") format("woff");
 			} @else {
-				src: url("../fonts/#{$folder}/#{$filename}_#{$weight}.eot?#iefix") format("embedded-opentype"),
-				url("../fonts/#{$folder}/#{$filename}_#{$weight}.woff") format("woff"),
-				url("../fonts/#{$folder}/#{$filename}_#{$weight}.ttf?asdasd")  format("truetype"),
-				url("../fonts/#{$folder}/#{$filename}_#{$weight}.svg##{$folder}/#{$filename}") format("svg");
+				src: url("../fonts/#{$folder}/#{$filename}_#{$weight}.woff2") format("woff2"),
+				url("../fonts/#{$folder}/#{$filename}_#{$weight}.woff") format("woff");
 			}
 		}
 	}
