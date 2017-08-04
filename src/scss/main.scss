@@ -3,11 +3,35 @@
 @import "map";
 // Sass file
 
-$color: #f8f8f8;
+#tronderlag {
+	height: 100%;
+}
 
-#tronderlag { height: 100vh; }
 
-figure, body{
-	margin: 0px;
-	padding: 0px;
+
+
+.kommune2017app {
+
+	width: 980px;
+	height: 600px;
+
+	@include breakpoint(tablet) {
+		// For the lulz. Skal fjernes,
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+
+		display: flex;
+	}
+
+	> [class*="mode"] {
+		width: 100%;
+		height: 100%;
+
+		@include breakpoint(tablet) {
+			&.mode-map { width: 70%; }
+			&.mode-list { width: 30%; }
+		}
+	}
 }

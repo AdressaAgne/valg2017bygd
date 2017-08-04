@@ -130,3 +130,20 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 h1,h2,h3,h4,h5,h6,strong { font-weight: bold; }
 em { font-style: italic; }
 * { box-sizing: border-box; }
+
+// Iconfont
+// @include fontface(Icomoon, icomoon, icomoon, 400, normal);
+
+// Acta
+@include fontface(Acta, acta, acta, 400, normal);
+@include fontface(Acta, acta, acta, 400, italic);
+@include fontface(Acta, acta, acta, 800, normal);
+@include fontface(Acta, acta, acta, 700, italic);
+
+// Stag
+@include fontface(Stag, stag, stag, 600, normal);
+
+// Roboto
+@include fontface(Roboto, roboto, roboto, 300, normal);
+@include fontface(Roboto, roboto, roboto, 400, normal);
+@include fontface(Roboto, roboto, roboto, 700, normal);

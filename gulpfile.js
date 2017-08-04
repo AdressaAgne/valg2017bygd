@@ -124,6 +124,7 @@ let paths = {
     js: 'src/js/**/*',
     html: 'src/html/**/*',
     scale: 'src/scale/images/**/*',
+    fonts: 'src/fonts/**/*',
     images: options.source_folder+'/images/'
 };
 
@@ -238,6 +239,10 @@ gulp.task('watch', function() {
 
     gulp.src('src/data/**/*')
         .pipe(gulp.dest('prod/data'));
+
+    gulp.src(paths.fonts)
+        .pipe(changed(paths.fonts))
+        .pipe(gulp.dest('prod/fonts'));
 
 });
 
