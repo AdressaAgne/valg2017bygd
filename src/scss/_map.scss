@@ -1,0 +1,33 @@
+.mode-map{
+	width: 100vw;
+	height: 100vh;
+}
+
+.mode-list{
+
+}
+
+[class*='icon-face-']{
+    display: block;
+    position: absolute;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    background-color: red !important;
+    background-position: 0px 10px;
+	background-image: url('../images/oorjG.png');
+}
+
+$i: 0;
+$j: 0;
+@each $kommune in 'hemne', 'snillfjord', 'hitra', 'froya', 'orland', 'agdenes', 'rissa', 'bjugn', 'afjord', 'roan', 'osen', 'oppdal', 'rennebu', 'meldal', 'orkdal', 'roros', 'holtalen', 'midtre_gauldal', 'melhus', 'skaun', 'klaebu', 'malvik', 'selbu', 'tydal', 'steinkjer', 'namsos', 'meraker', 'stjordal', 'frosta', 'leksvik', 'levanger', 'verdal', 'inderoy', 'verran', 'namdalseid', 'inderoy', 'snasa', 'lierne', 'royrvik', 'namsskogan', 'grong', 'hoylandet', 'overhalla', 'fosnes', 'flatanger', 'vikna', 'naeroy', 'leka' {
+
+    .icon-face-#{$kommune}{
+        background-position: (64px * $i) (64px * $j);
+    }
+
+    $i: $i + 1;
+    @if($i == 10){
+        $j: $j + 1;
+    }
+}

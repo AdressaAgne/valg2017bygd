@@ -26,34 +26,44 @@ var parti = {
 
 var nope = ['eide', 'averoy', 'gjemnes', 'tingvold', 'sundal', 'surnadal', 'rundal', 'halsa', 'smola', 'aure', 'trondheim']
 
+var help = [];
 
 $.getJSON('data/Kart_Midt-NorgeOK.json').done(function(kommuner) {
 	$.getJSON('data/kommune.json').done(function(data) {
 		L.geoJSON(kommuner, {
 			style : function(f) {
-				var center = L.latLngBounds(f.geometry.coordinates).getCenter();
-
 				var faceName = f.properties.NAVN;
 				faceName = faceName.toLowerCase().replace(/ø/g, "o").replace(/å/g, "a").replace(/æ/g, "ae").replace(/\s/g, "_");
 
-				var faceIcon = L.divIcon({className: 'icon-face-' + faceName });
-				L.marker([center.lat, center.lng], {icon : faceIcon}).addTo(map);
+				//"ID":"rissa",
+				//"Kommune":"Rissa",
+				//"Ordfører":"Ove Vollan ",
+				//"Parti":"H"
 
-				if(data[faceName] != undefined)
+				if(data[faceName] != undefined) {
+					var faceIcon = L.divIcon({
+						className: 'icon-face-' + faceName,
+						iconSize : 40
+					});
+					var center = L.latLngBounds(f.geometry.coordinates).getCenter();
+					var info = data[faceName];
+					var marker = L.marker([center.lng, center.lat], {
+							icon : faceIcon,
+							title : info.Kommune,
+					}).on('click', function(e) {
+						log(this.options.title, e);
+					});
+
+
+					marker.addTo(map);
 					return {
-							color : parti[data[faceName].Parti],
+							color : parti[info.Parti],
 							weight : 1,
 							fillOpacity : .1
 						}
+				}
 				return {color : "white"};
 			}
 		}).addTo(map);
-
-
 	});
-
-
-
-
-
 });
