@@ -1,0 +1,136 @@
+// VARS
+
+$unit: 16px;
+
+$fonts:(
+	system:						#{"Roboto", Arial, Helvetica},
+	headline:					#{"Acta", Georgia, Times New Roman},
+	icon:						#{"Icomoon"}
+	);
+
+$colors:(
+	black:						#010101,
+	white:						#fff,
+	background:					#f9f9f9,
+	primary:					#005379,
+	pop:						#28aae2,
+	dice:						#c3002f,
+	ui-gray:					#e2e2e2,
+	text-gray:					#777,
+	facebook:					#3b5998,
+	twitter:					#55acee,
+	error:						#f7a800,
+	rbk:						#be9e55
+	);
+
+$breakpoints:(
+	mobile:						641px,
+	tablet:						1024px,
+	desktop:					1280px,
+	);
+
+
+
+// FUNCTIONS
+
+	// Unit
+	@function u($factor: 1) {
+		@return $unit * $factor;
+	}
+
+	// Color
+	@function color($key) {
+		@if variable-exists(colors) {
+			@if map-has-key($colors, $key) {
+				@return map-get($colors, $key);
+			}
+
+			@warn "Unknown '#{$key}' in $colors.";
+			@return null;
+		}
+	}
+
+	// Font
+	@function font($key) {
+		@if variable-exists(fonts) {
+			@if map-has-key($fonts, $key) {
+				@return map-get($fonts, $key);
+			}
+
+			@warn "Unknown '#{$key}' in $fonts.";
+			@return null;
+		}
+	}
+
+	// Breakpoint
+	@function breakpoint($key) {
+		@if variable-exists(breakpoints) {
+			@if map-has-key($breakpoints, $key) {
+				@return map-get($breakpoints, $key);
+			}
+
+			@warn "Unknown '#{$key}' in $breakpoints.";
+			@return null;
+		}
+	}
+
+
+// MIXINS
+
+	// Fontface (revise to new syntax (Woff) )
+	@mixin fontface($name: Arial, $folder: arial, $filename: arial, $weight: 400, $style: normal) {
+		@font-face {
+			font-family: "#{$name}";
+			font-weight: $weight;
+			font-style: $style;
+			@if $style == italic {
+				src: url("../fonts/#{$folder}/#{$filename}_#{$weight}_italic.eot?#iefix") format("embedded-opentype"),
+				url("../fonts/#{$folder}/#{$filename}_#{$weight}_italic.woff") format("woff"),
+				url("../fonts/#{$folder}/#{$filename}_#{$weight}_italic.ttf")  format("truetype"),
+				url("../fonts/#{$folder}/#{$filename}_#{$weight}_italic.svg##{$folder}/#{$filename}") format("svg");
+			} @else {
+				src: url("../fonts/#{$folder}/#{$filename}_#{$weight}.eot?#iefix") format("embedded-opentype"),
+				url("../fonts/#{$folder}/#{$filename}_#{$weight}.woff") format("woff"),
+				url("../fonts/#{$folder}/#{$filename}_#{$weight}.ttf?asdasd")  format("truetype"),
+				url("../fonts/#{$folder}/#{$filename}_#{$weight}.svg##{$folder}/#{$filename}") format("svg");
+			}
+		}
+	}
+
+	// Breakpoints
+	@mixin breakpoint($point: 0, $value: min, $point2: 0) {
+		@if $point == mobile {
+			@media screen and (min-width: 1px) and (max-width: breakpoint(mobile)) { @content; }
+		}
+		@else if $point == "tablet" {
+			@media screen and (min-width: breakpoint(mobile)) { @content; }
+		}
+		@else if $point == "desktop" {
+			@media screen and (min-width: breakpoint(tablet)) { @content; }
+		}
+		@else if $point == "desktop-big" {
+			@media screen and (min-width: breakpoint(desktop)) { @content; }
+		}
+		@else if ( $value == "min" ) {
+			@media screen and (min-width: $point) { @content; }
+		}
+		@else if ( $value == "max" ) {
+			@media screen and (max-width: $point) { @content; }
+		}
+		@else if ( $value == "minmax" ) {
+			@media screen and (min-width: $point) and (max-width: $point2) { @content; }
+		}
+		@else {
+			/* ERROR. "#{$value}" is not a valid $value. */
+			/* Breakpoint second value must be "min", "max", or "minmax" */
+		}
+	}
+
+
+
+// RESET
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+h1,h2,h3,h4,h5,h6,strong { font-weight: bold; }
+em { font-style: italic; }
+* { box-sizing: border-box; }
