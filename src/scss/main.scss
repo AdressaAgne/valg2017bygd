@@ -9,14 +9,9 @@ html, body {
 	height: 100%;
 }
 
-#tronderlag {
-	height: 100%;
-}
-
-
-
-
 .kommune2017app {
+	height: inherit;
+	width: inherit;
 	// overflow: hidden;
 
 	@include breakpoint(tablet) {

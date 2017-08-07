@@ -38,7 +38,7 @@ $.getJSON('data/Kart_Midt-NorgeOK.json').done(function(kommuner) {
 				if(data[faceName] != undefined) {
 					var faceIcon = L.divIcon({
 						className: 'icon-face-' + faceName,
-						iconSize : 40
+						iconSize : 32
 					});
 					var center = L.latLngBounds(f.geometry.coordinates).getCenter();
 					var info = data[faceName];
