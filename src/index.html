@@ -12,43 +12,23 @@
 </head>
 <body>
 	<figure class="kommune2017app">
-		<div class="mode-map">
-			<div id="tronderlag"></div>
-		</div>
-		<div class="mode-list">
-			<ul>
-				<li data-id="verdal" data-party="ap" data-status="better">
-					<a>
-						<figure>
-						</figure>
-						<ul>
-							<li class="name">Bjørn Iversen</li>
-							<li class="county">Malvik</li>
-						</ul>
-					</a>
-				</li>
-				<li data-id="malvik" data-party="sp" data-status="same">
-					<a>
-						<figure>
-						</figure>
-						<ul>
-							<li class="name">Ingrid Aune</li>
-							<li class="county">Malvik</li>
-						</ul>
-					</a>
-				</li>
-				<li data-id="stjordal" data-party="h" data-status="worse">
-					<a>
-						<figure>
-						</figure>
-						<ul>
-							<li class="name">Ivar Vigdenes</li>
-							<li class="county">Stjørdal</li>
-						</ul>
-					</a>
-				</li>
-			</ul>
-		</div>
+        <div class="mode-map">
+            <div id="trondelag"></div>
+        </div>
+        <div class="mode-list">
+            <ul></ul>
+        </div>
+        <div class="mode-map-info active" hidden>
+            <div class="mode-map-info__bar">
+                <h1 class="mode-map-info__bar--title"></h1>
+                <span class="mode-map-info__bar--close">&times;</span>
+            </div>
+            <div class="mode-map-info__content">
+                <h1 class="mode-map-info--subheader"></h1>
+                <smalll class="mode-map-info--parti"></smalll>
+                <p class="mode-map-info--description"></p>
+            </div>
+        </div>
 	</figure>
 	<script src="https://unpkg.com/leaflet@1.1.0/dist/leaflet.js"
 	integrity="sha512-mNqn2Wg7tSToJhvHcqfzLMU6J4mkOImSPTxVZAdo+lcPlk+GhZmYgACEe0x35K7YzW1zJ7XyJV/TT1MrdXvMcA=="

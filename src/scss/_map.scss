@@ -8,17 +8,30 @@ $parti-ll: gray;
 }
 
 .mode-map-info, #trondelag{
-    position: absolute;
     width: inherit;
     height: inherit;
-    top: 0px;
-    left: 0px;
-    transition: all .2s ease;
     background-color: color(background);
-    transform: translateZ(0);
 }
+#trondelag{
+    @include breakpoint(tablet) {
+        width: 100%;
+    }
+}
+
 .mode-map-info{
-    left: 100%;
+    height: 100%;
+    @include breakpoint(mobile) {
+        position: absolute;
+        z-index: 9999999;
+        top: 0px;
+        right: 0px;
+        width: 100%;
+        transform: translateX(100%);
+        transition: all .2s ease;
+    }
+    &.active{
+        transform: translateX(0%);
+    }
 
     &__content{
         height: calc(100% - u(3));
@@ -28,18 +41,6 @@ $parti-ll: gray;
             margin: 10px 0px;
         }
     }
-
-    &__image{
-        border-radius: 200px;
-        width: u(8);
-        height: u(8);
-        background-size: cover;
-        border: 2px solid color(white);
-        box-shadow: 0px 5px 10px 3px rgba(0, 0, 0, .2);
-        margin-left: 50%;
-        transform: translate(-50%);
-    }
-
     &__bar{
         width: 100%;
         height: u(3);
@@ -54,6 +55,7 @@ $parti-ll: gray;
             float: left;
         }
         &--close{
+            cursor: pointer;
             width: u(2);
             font-size: u(2);
             float: right;
@@ -71,9 +73,13 @@ $parti-ll: gray;
     background-color: color(white);
     border: 1px solid color(white);
     box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, .2);
-
     background-position: 0px 10px;
 	background-image: url('../images/oorjG.png');
+    &.large{
+        width: u(8);
+        height: u(8);
+        border-radius: u(4);
+    }
     &.parti{
         &::after{
             display: block;
@@ -88,7 +94,6 @@ $parti-ll: gray;
             background-image: url('../gfx/logos.png');
             background-size: auto 100%;
             background-repeat: no-repeat;
-            border: 1px solid color(white);
         }
         &-sp::after{
             background-position: percentage(3/3) 0px;
