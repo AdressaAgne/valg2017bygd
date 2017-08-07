@@ -1,55 +1,29 @@
-// VARS
-
-$unit: 16px;
-
-$fonts:(
-	system:						#{"Roboto", Arial, Helvetica},
-	headline:					#{"Acta", Georgia, Times New Roman},
-	icon:						#{"Icomoon"}
-	);
-
-$colors:(
-	black:						#010101,
-	white:						#fff,
-	background:					#f9f9f9,
-	primary:					#005379,
-	pop:						#28aae2,
-	dice:						#c3002f,
-	ui-gray:					#e2e2e2,
-	text-gray:					#777,
-	facebook:					#3b5998,
-	twitter:					#55acee,
-	error:						#f7a800,
-	rbk:						#be9e55
-	);
-
-$breakpoints:(
-	mobile:						641px,
-	tablet:						1024px,
-	desktop:					1280px,
-	);
-
-$coco-spaces:(
-	global:(
-		x:  					u(1.5),
-		y:  					u(1.5),
-		block:  				u(3),
-		),
-	medium:(
-		x:  					u(10/8),
-		x-inner:  				u(1),
-		y:  					u(1),
-		y-inner:  				u(6/8),
-		block:  				u(1.5)
-		)
-	);
-
-
 // FUNCTIONS
 
 	// Unit
 	@function u($factor: 1) {
 		@return $unit * $factor;
+	}
+
+	// Map deep get
+	@function map-deep-get($map, $keys...) {
+		@each $key in $keys {
+			$map: map-get($map, $key);
+		}
+
+		@return $map;
+	}
+
+	// Map has nested keys
+	@function map-has-nested-keys($map, $keys...) {
+		@each $key in $keys {
+			@if not map-has-key($map, $key) {
+				@return false;
+			}
+			$map: map-get($map, $key);
+		}
+
+		@return true;
 	}
 
 	// Color
@@ -88,17 +62,66 @@ $coco-spaces:(
 		}
 	}
 
-	// Breakpoint
-	@function space($key) {
+	// Space
+	@function space($size, $space) {
 		@if variable-exists(spaces) {
-			@if map-has-key($spaces , $key) {
-				@return map-get($spaces , $key);
+			@if map-has-nested-keys($spaces, $size, $space) {
+				@return map-deep-get($spaces, $size, $space);
+			} @else {
+				@warn "Unknown '#{$size}, #{$space}' in $spaces.";
+				@return null;
 			}
-
-			@warn "Unknown '#{$key}' in $spaces .";
-			@return null;
 		}
 	}
+
+
+
+// VARS
+
+$unit: 16px;
+
+$fonts:(
+	system:						#{"Roboto", Arial, Helvetica},
+	headline:					#{"Acta", Georgia, Times New Roman},
+	icon:						#{"Icomoon"}
+	);
+
+$colors:(
+	black:						#010101,
+	white:						#fff,
+	background:					#f9f9f9,
+	primary:					#005379,
+	pop:						#28aae2,
+	dice:						#c3002f,
+	ui-gray:					#e2e2e2,
+	text-gray:					#777,
+	facebook:					#3b5998,
+	twitter:					#55acee,
+	error:						#f7a800,
+	rbk:						#be9e55
+	);
+
+$breakpoints:(
+	mobile:						641px,
+	tablet:						1024px,
+	desktop:					1280px,
+	);
+
+$spaces:(
+	global:(
+		x:  					u(1.5),
+		y:  					u(1.5),
+		block:  				u(3),
+		),
+	medium:(
+		x:  					u(10/8),
+		x-inner:  				u(1),
+		y:  					u(1),
+		y-inner:  				u(6/8),
+		block:  				u(1.5)
+		)
+	);
+
 
 
 // MIXINS

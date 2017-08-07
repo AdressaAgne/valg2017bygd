@@ -8,8 +8,8 @@
 			a {
 				display: flex;
 				cursor: pointer;
-				padding: u(1/2) u(10/8);
-				border-bottom: 1px solid color(ui-gray); 
+				padding: space(medium, y-inner) space(medium, x);
+				border-bottom: 1px solid color(ui-gray);
 			}
 
 			figure {
