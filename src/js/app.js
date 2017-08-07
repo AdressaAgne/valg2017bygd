@@ -4,6 +4,12 @@ function log(...args){
 	console.log(args);
 }
 
+var brakpoints = {
+	mobile:	'641px',
+	tablet:	'1024px',
+	desktop: '1280px',
+}
+
 var map = L.map('trondelag').setView([63.4448229,10.393319], 8);
 
 var CartoDB_PositronNoLabels = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png', {
@@ -27,7 +33,7 @@ var parti = {
 var nope = ['eide', 'averoy', 'gjemnes', 'tingvold', 'sundal', 'surnadal', 'rundal', 'halsa', 'smola', 'aure', 'trondheim']
 
 var help = [];
-
+var backData = null;
 $.getJSON('data/Kart_Midt-NorgeOK.json').done(function(kommuner) {
 	$.getJSON('data/kommune.json').done(function(data) {
 		L.geoJSON(kommuner, {
@@ -36,19 +42,21 @@ $.getJSON('data/Kart_Midt-NorgeOK.json').done(function(kommuner) {
 				faceName = faceName.toLowerCase().replace(/ø/g, "o").replace(/å/g, "a").replace(/æ/g, "ae").replace(/\s/g, "_");
 
 				if(data[faceName] != undefined) {
+					var info = data[faceName];
 					var faceIcon = L.divIcon({
-						className: 'icon-face-' + faceName,
+						className: 'icon-face-' + faceName+' parti parti-'+info.Parti.toLowerCase(),
 						iconSize : 32
 					});
 					var center = L.latLngBounds(f.geometry.coordinates).getCenter();
-					var info = data[faceName];
+
 					var marker = L.marker([center.lng, center.lat], {
 							icon : faceIcon,
 							data : info,
 					}).on('click', function(e) {
-						showInfo.bind(this.options.data)();
-					});
+						backData = this.options.data;
+						showInfo.bind(backData)();
 
+					});
 					marker.addTo(map);
 					return {
 							color : parti[info.Parti],
@@ -65,16 +73,17 @@ $.getJSON('data/Kart_Midt-NorgeOK.json').done(function(kommuner) {
 	});
 });
 
+
+
 // Functions
 var infoTab = $('.mode-map-info');
 function showInfo(obj) {
 	$(infoTab).show();
 	$('.mode-map-info__bar--title').text(this.Kommune);
-	$('.mode-map-info--parti').className = 'mode-map-info--parti ' + this.Parti;
+	$('.mode-map-info--parti').addClass('parti-' + this.Parti.toLowerCase());
 	$('.mode-map-info--subheader').text(this.Ordfører);
 	$('.mode-map-info--description').text('hei på deg');
 	$(infoTab).css('left', '0%');
-	log('show', infoTab);
 }
 
 function showMap(){
@@ -82,13 +91,20 @@ function showMap(){
 	setTimeout(function() {
 		$(infoTab).hide();
 	}, 400);
-	log('hide');
+
+	$('.mode-map-info--parti')
+		.removeClass('parti-ll')
+		.removeClass('parti-sp')
+		.removeClass('parti-ap')
+		.removeClass('parti-h');
 }
 
 $('.mode-map-info__bar--close').click(function() {
 	showMap();
 });
 
+
+// Touch slide back
 var touch = false;
 var start = 0;
 var diff = 0;
@@ -101,20 +117,20 @@ $('.mode-map-info').on('touchstart', function(e){
 $('.mode-map-info').on('touchend', function(e){
 	touch = false;
 	start = 0;
-	log(parseInt($(infoTab).css('left')));
-	if(parseInt($(infoTab).css('left')) > 35){
+	left = parseInt($(infoTab).css('left')) / w * 100;
+	// 15% left then show the map again, else back to info
+	if(left > 15){
 		showMap();
 	} else {
-		showInfo();
+		showInfo.bind(backData)();
 	}
 });
 
 $('.mode-map-info').on('touchmove', function(e){
 	diff = (e.changedTouches[0].clientX - start) / w * 100;
-	log(w, diff, window)
 	if(diff > 0){
 		$(infoTab).css('left', diff+"%");
 	}
-
-//	if(diff < -100) showMap();
 });
+
+// --touch slide back
