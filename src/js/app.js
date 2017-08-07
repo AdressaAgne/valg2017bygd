@@ -80,8 +80,7 @@ var infoTab = $('.mode-map-info');
 function showInfo(obj) {
 	$(infoTab).show();
 	$('.mode-map-info__bar--title').text(this.Kommune);
-	$('.mode-map-info--parti').addClass('parti-' + this.Parti.toLowerCase());
-	$('.mode-map-info--subheader').text(this.Ordfører);
+	$('.mode-map-info--subheader').text(this.Ordfører).attr('data-parti', this.Parti.toLowerCase());
 	$('.mode-map-info--description').text('hei på deg');
 	$(infoTab).css('left', '0%');
 }
