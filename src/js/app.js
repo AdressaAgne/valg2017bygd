@@ -35,11 +35,11 @@ var nope = ['eide', 'averoy', 'gjemnes', 'tingvold', 'sundal', 'surnadal', 'rund
 var help = [];
 var backData = null;
 var list = $('.mode-list > ul');
-$.getJSON('data/Kart_Midt-NorgeOK.json').done(function(kommuner) {
+$.getJSON('data/kommuner.geojson').done(function(kommuner) {
     $.getJSON('data/kommune.json').done(function(data) {
         L.geoJSON(kommuner, {
             style: function(f) {
-                var faceName = f.properties.NAVN;
+                var faceName = f.properties.navn;
                 faceName = faceName.toLowerCase().replace(/ø/g, "o").replace(/å/g, "a").replace(/æ/g, "ae").replace(/\s/g, "_");
 
                 if (data[faceName] != undefined) {
