@@ -29,6 +29,20 @@ $breakpoints:(
 	desktop:					1280px,
 	);
 
+$coco-spaces:(
+	global:(
+		x:  					u(1.5),
+		y:  					u(1.5),
+		block:  				u(3),
+		),
+	medium:(
+		x:  					u(10/8),
+		x-inner:  				u(1),
+		y:  					u(1),
+		y-inner:  				u(6/8),
+		block:  				u(1.5)
+		)
+	);
 
 
 // FUNCTIONS
@@ -70,6 +84,18 @@ $breakpoints:(
 			}
 
 			@warn "Unknown '#{$key}' in $breakpoints.";
+			@return null;
+		}
+	}
+
+	// Breakpoint
+	@function space($key) {
+		@if variable-exists(spaces) {
+			@if map-has-key($spaces , $key) {
+				@return map-get($spaces , $key);
+			}
+
+			@warn "Unknown '#{$key}' in $spaces .";
 			@return null;
 		}
 	}
