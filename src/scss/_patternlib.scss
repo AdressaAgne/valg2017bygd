@@ -1,0 +1,11 @@
+@mixin list-item-title() {
+	font-size: u(9/8);
+	font-weight: bold;
+	line-height: 1.3;
+}
+
+@mixin list-item-secondary() {
+	font-size: u(7/8);
+	line-height: 1.5;
+	color: color(text-gray);
+}
