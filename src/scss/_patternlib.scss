@@ -1,3 +1,14 @@
+@mixin list-item($type:default, $space:medium) {
+	border-bottom: 1px solid color(ui-gray);
+
+	@if $type == default {
+		padding: space($space, y-cell) space($space, x);
+	} @else if $type == open {
+		padding: space($space, y) space($space, x);
+	}
+
+}
+
 @mixin list-item-title() {
 	font-size: u(9/8);
 	font-weight: bold;

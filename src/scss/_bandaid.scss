@@ -62,6 +62,18 @@
 		}
 	}
 
+	// Transition
+	@function transition($key) {
+		@if variable-exists(transitions) {
+			@if map-has-key($transitions, $key) {
+				@return map-get($transitions, $key);
+			}
+
+			@warn "Unknown '#{$key}' in $transitions.";
+			@return null;
+		}
+	}
+
 	// Space
 	@function space($size, $space) {
 		@if variable-exists(spaces) {
@@ -118,8 +130,15 @@ $spaces:(
 		x-inner:  				u(1),
 		y:  					u(1),
 		y-inner:  				u(6/8),
+		y-cell: 				u(5/8),
 		block:  				u(1.5)
 		)
+	);
+
+$transitions:(
+	fast:						all 180ms ease-in-out,
+	medium:						all 360ms ease-in-out,
+	long:						all 720ms ease-in-out
 	);
 
 

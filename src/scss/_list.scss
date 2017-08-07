@@ -8,8 +8,13 @@
 			a {
 				display: flex;
 				cursor: pointer;
-				padding: space(medium, y-inner) space(medium, x);
-				border-bottom: 1px solid color(ui-gray);
+				@include list-item();
+			}
+
+			&.active a {
+				@include list-item(open);
+				transition: transition(fast);
+				background: pink; //debug
 			}
 
 			figure {
