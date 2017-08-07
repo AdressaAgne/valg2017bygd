@@ -50,14 +50,11 @@ $.getJSON('data/Kart_Midt-NorgeOK.json').done(function(kommuner) {
                     });
                     var center = L.latLngBounds(f.geometry.coordinates).getCenter();
 
-
-
                     info.faceName = faceName;
                     info.lat = center.lat;
                     info.lng = center.lng;
 
-
-                    $(list).append(`<li data-id="` + faceName + `" data-party="` + info.Parti.toLowerCase() + `" data-status="better">
+                    $(list).prepend(`<li data-id="` + faceName + `" data-party="` + info.Parti.toLowerCase() + `" data-status="better">
 	                    <a>
 	                        <figure>
 	                        </figure>
@@ -120,9 +117,6 @@ function showInfo() {
         log($(this.elm).offset().top, $(this.elm).position().top);
         return;
     }
-
-
-
     $(infoTab).addClass('active');
     $(infoTab).show();
     backData = this;
