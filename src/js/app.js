@@ -1,14 +1,18 @@
-// leaflet setup
-
 function log(...args) {
     console.log(args);
 }
+
 var w = $(window).width();
 var breakpoints = {
     mobile: 641,
     tablet: 1024,
     desktop: 1280,
 }
+
+window.onresize = function(e){
+    w = $(window).width();
+}
+
 
 var map = L.map('trondelag').setView([63.4448229, 10.393319], 8);
 
@@ -30,9 +34,6 @@ var parti = {
     "Bygdeliste": 'gray',
 }
 
-var nope = ['eide', 'averoy', 'gjemnes', 'tingvold', 'sundal', 'surnadal', 'rundal', 'halsa', 'smola', 'aure', 'trondheim']
-
-var help = [];
 var backData = null;
 var list = $('.mode-list > ul');
 $.getJSON('data/kommuner.geojson').done(function(kommuner) {
@@ -106,15 +107,14 @@ function showInfo() {
     $('.mode-map-info--description').text('hei på deg');
 
     $(infoTab).css('transform', '');
-
+    $('.mode-map-info').insertAfter(this.elm);
     if (w > breakpoints.mobile) {
-        $('.mode-map-info').insertAfter(this.elm);
+
         map.flyTo([this.lng, this.lat]);
         $(infoTab).slideDown(200);
         $('.mode-list').animate({
             scrollTop: $('.mode-list').scrollTop() + $(this.elm).position().top,
         }, 200);
-        log($(this.elm).offset().top, $(this.elm).position().top);
         return;
     }
     $(infoTab).addClass('active');
