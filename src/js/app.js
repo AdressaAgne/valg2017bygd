@@ -36,10 +36,11 @@ var parti = {
 
 var backData = null;
 var list = $('.mode-list > ul');
+var geoMap;
 $.getJSON('data/kommuner.geojson').done(function(kommuner) {
     $.getJSON('data/kommune.json').done(function(data) {
-        L.geoJSON(kommuner, {
-            style: function(f) {
+        geoMap = L.geoJSON(kommuner, {
+            onEachFeature : function(f, layer) {
                 var faceName = f.properties.navn;
                 faceName = faceName.toLowerCase().replace(/ø/g, "o").replace(/å/g, "a").replace(/æ/g, "ae").replace(/\s/g, "_");
 
@@ -54,6 +55,17 @@ $.getJSON('data/kommuner.geojson').done(function(kommuner) {
                     info.faceName = faceName;
                     info.lat = center.lat;
                     info.lng = center.lng;
+                    layer._leaflet_id = faceName;
+
+                    var marker = L.marker([center.lng, center.lat], {
+                        icon: faceIcon,
+                        data: info,
+                    }).on('click', function(e) {
+                        showInfo.bind(info)();
+                    });
+                    marker.addTo(map);
+                    info.marker = marker;
+                    info.layer = layer;
 
                     $(list).prepend(`<li data-id="` + faceName + `" data-party="` + info.Parti.toLowerCase() + `" data-status="better">
 	                    <a>
@@ -68,28 +80,16 @@ $.getJSON('data/kommuner.geojson').done(function(kommuner) {
                     info.elm = $('[data-id=' + faceName + ']');
                     backData = info;
 
-                    var marker = L.marker([center.lng, center.lat], {
-                        icon: faceIcon,
-                        data: info,
-                    }).on('click', function(e) {
-                        showInfo.bind(info)();
-                    });
-                    marker.addTo(map);
 
                     $(info.elm).click(function() {
                         showInfo.bind(info)();
                     });
-
-                    return {
+                    layer.setStyle({
                         color: parti[info.Parti],
                         weight: 1,
                         fillOpacity: .1
-                    }
+                    });
                 }
-                return {
-                    color: "white",
-                    fillOpacity: 0
-                };
             }
         }).addTo(map);
     });
@@ -99,17 +99,34 @@ $.getJSON('data/kommuner.geojson').done(function(kommuner) {
 
 // Functions
 var infoTab = $('.mode-map-info');
-
+var lastLayer = null;
 function showInfo() {
+    log(map);
+    $('.mode-list > ul li').removeClass('active');
+    if(lastLayer === null){
+        lastLayer = geoMap.getLayer(this.faceName);
+    } else {
+        lastLayer.setStyle({
+            weight: 1,
+            fillOpacity: .1
+        });
+        lastLayer = geoMap.getLayer(this.faceName);
+    }
     $('.mode-map-info__bar--title').text(this.Kommune);
     $('.mode-map-info--subheader').text(this.Ordfører).attr('data-parti', this.Parti.toLowerCase());
     $('.mode-map-info__image').addClass('icon-face-' + this.faceName);
     $('.mode-map-info--description').text('hei på deg');
 
     $(infoTab).css('transform', '');
-    $('.mode-map-info').insertAfter(this.elm);
-    if (w > breakpoints.mobile) {
 
+    $('.mode-map-info').insertAfter(this.elm);
+    geoMap.getLayer(this.faceName).setStyle({
+        weight: 2,
+        fillOpacity: .5
+    });
+
+    if (w > breakpoints.mobile) {
+        $(this.elm).addClass('active');
         map.flyTo([this.lng, this.lat]);
         $(infoTab).slideDown(200);
         $('.mode-list').animate({
@@ -117,6 +134,7 @@ function showInfo() {
         }, 200);
         return;
     }
+
     $(infoTab).addClass('active');
     $(infoTab).show();
     backData = this;
