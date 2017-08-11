@@ -1,19 +1,35 @@
 .mode-list {
 	background-color: color(white);
-	overflow-y: scroll;
+	width: 100%;
+	& .list-search{
+		width: 100%;
+		height: u(2);
+		padding: u(1);
+		outline: none;
+		border: none;
+		appearance: none;
+		@include list-item();
+	}
+
 	> ul {
+		height: calc(100% - 16px);
+		overflow-y: scroll;
 		> li {
 
 			a {
 				display: flex;
 				cursor: pointer;
+				transition: transition(fast);
 				@include list-item();
 			}
 
 			&.active a {
 				@include list-item(open);
-				transition: transition(fast);
-				background: pink; //debug
+				background-color: color(primary);
+				color: color(white);
+				.county{
+					color: color(background);
+				}
 			}
 
 			figure {

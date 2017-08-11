@@ -8,8 +8,8 @@ $parti-ll: gray;
 }
 
 .mode-map-info, #trondelag{
-    width: inherit;
-    height: inherit;
+    width: 100%;
+    height: 100%;
     background-color: color(background);
 }
 #trondelag{
@@ -20,6 +20,7 @@ $parti-ll: gray;
 
 .mode-map-info{
     height: 100%;
+
     @include breakpoint(mobile) {
         position: absolute;
         z-index: 9999999;
@@ -29,12 +30,13 @@ $parti-ll: gray;
         transform: translateX(100%);
         transition: all .2s ease;
     }
+
     &.active{
         transform: translateX(0%);
     }
 
     &__content{
-        height: calc(100% - u(3));
+        height: calc(100% - 24px);
         padding: u(2);
         font-family: font(system);
         p {
