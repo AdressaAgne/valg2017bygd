@@ -1,0 +1,4469 @@
+[
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "txtEncoding",
+      "elementPos": 3,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "url",
+      "type": "text",
+      "id": "url",
+      "elementPos": 4,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "textarea",
+      "id": "txt1",
+      "elementPos": 6,
+      "namePos": 0,
+      "value": "ID,Kommune,Ordfører,Alder,Parti,Innbyggerantall 2013,Innbyggerantall 2017,Antall skoler 2013,Antall skoler 2017,Antall eldrehjem/omsorgssenter 2013,Antall eldrehjem/omsorgssenter 2017,Antall barnehager 2013,Antall barnehager 2017,Antall idrettshaller og svømmehaller 2013,Antall idrettshaller og svømmehaller i 2017,Antall polutsalg 2013,Antall polutsalg 2017,Antall dagligvarebutikker i 2013,Antall dagligvarebutikker i 2017,Antall statlige arbeidsplasser 2013,Antall statlige arbeidsplasser 2017,Antall nedlagte bruk siste..(SSB),Har det skjedd en endring i de statlige overføringene til din kommune siste fire år? Hvordan i så fall?,Opplever du at din kommune er utsatt for en sentralisering? Hvordan i så fall?,Har regjeringen gjennomført tiltak som har gitt positiv effekt for din kommune? Hva i så fall?,Har regjeringen gjennomført tiltak som har gitt negativ effekt for din kommune? Hvilke i så fall?,Hva er din kommunes største utfordring?,\"Klarer dere å levere de tjenestene innbyggerne skal ha (skole, eldreomsrorg, barnevern etc)?\",Hva mener du skal til for å opprettholde levekraftige distrikter?,Hva er det beste og verste med bygda/distriktet?,Hva er det beste og verste med byen?,Hvorfor bor du på bygda/distriktet?, Hvordan ser kommunen din ut om fem år? Er du mest optimistisk eller mest pessimistisk?,Fins det egne verdier på bygda/distriktet? Er de under press?,Hvordan er brannberedskapen i din kommune? Endring?,Hvordan er ambulanseberedskapen i din kommune?,Politi,Hvordan er den offentlige kommunikasjonen og infrastrukturen? Endring?,Fortell om din kommunes største suksess siste fire år?,Fortell om din kommunes største fiasko siste fire år?,Har situasjonen i din kommune blitt bedre eller dårligere de siste fire årene? Ingen endring?,Tittel,ingress,Sitat\nosen,Osen,Johan Einar Høvik,,Ap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,\nroan,Roan,Einar Eian,,H,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,\nafjord,Åfjord,Vibeke Stjern ,,Ap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,\nbjugn,Bjugn,Ogne Undertun ,,Ap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,\nrissa,Rissa,Ove Vollan ,,H,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,\nfroya,Frøya,Berit Flåmo,,Ap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,\nhitra,Hitra,Ole Haugen ,63,Ap,,,5,5,2,2,5,5,2 haller,2 haller,1,1,9,9,,,,Det er gjort noen små justeringer som gjør at vi kommer litt dårligere ut. Det utgjør omlag 3-4 millioner årlig.,\"Det har pågått i flere år, men vi ser en større sentraliseringsvilje hos dagens regjering. Både politi - og kommunereform viser det. Vi har ikke opplevd særlige konsekvenser. Vi berger lensmannskontoret. Så blir vi litt større, en del av Snillfjord går sammen med oss. \",\"Nei, ærlig talt, det har jeg vanskelig for å se. \",Vi ville hatt bedre økonomi hvis opposisjonens alternative budsjett hadde blitt vedtatt. Det mest dramatiske er at regjeringen vil fjerne eiendomsskatten for verk og bruk.,Den fysiske avstanden mellom Trondheim og Oslo. Vi har også et begrenset bo - og arbeidsmarked og ikke mulighet for dagpendling.,Ja. Spesielt på pleie - og omsorg. Dre har vi blitt kåret som nummer en i landet. ,God samferdsel. Vi leverer mat til hele verden.,\"Jeg er veldig glad i naturen, og her bor vi midt i havbruksland. Det er det vi skal leve av i framtida. I tillegg er det et oversiktlig og trygt samfunn. Utfordringen ligger på kommunikasjon og samferdsel. Vi har ikke godt nok mobilt nett og bredbånd. \",\"Du har nærhet til det meste; kultur, fritidstilbud og sykehus. Nå er jeg en gammel kaill, men det er kanskje dårligere oppvekstvilkår i byen. Jeg tror det er tryggere for en barnefamile på Hitra enn i Trondheim. Her har vi beholdt grendasamfunnets gamle kvaliteter, der alle kjenner alle. Ungene har godt av å utfolde seg fritt i naturen.\",For meg er det nærheten til naturen - og litt tilfelighet. ,Jeg er optimist! Vi har fortsatt befolkningsvekst slik vi har hatt de siste årene. Veksten i arbeidsplasser i privat sektor fortsetter. Vi lever jo midt i matfatet. ,\"Ja, folk bryr seg mer om hverandre. Vi skal være våken på om dette er i endring. Vi blir også sterkt påvirket av mediesamfunnet. Sammen med Frøya har vi innbyggere fra 73 nasjonaliteter. Det kan gi oss en utfordring, men også en berikelse. Vi ser det litt i forhold til dugnadsånd - de er vanskeligere å få på banen, de forstår ikke helt hva som er forventet. \",\"Vi har et frivillig brannvesen det koster mer og mer å drive på grunn av kravene fra storsamfunnet. Det kreves skolering, samtidig som de får flere oppgaver. Det er altfor mange eksempler på at de er først på et ulykkessted. De gjør en kjempgod jobb. \",\"Vi har felles ambulanseberedskap med Frøya, tre biler. Men den tredje bilen har ikke hatt døgnkontinuerlig beredskap. Når det står om liv er luftambulansen viktigst.\",\"Vi berger lensmannskontoret, det skal betjene både Hitra, Frøya og ytre Snillfjord. I sum blir resurssen den samme som den har vært.\",\"Lokalbusstilbudet er kraftig redusert, i praksis har vi dne ikke lenger. Bredbånd og mobil har vi slitt mye med. Selskapene lover og lover, men jeg savner det gode, gamle Televerket.\",Vi har vært heldig med vekst i både befolkning og arbeidsplasser. Det er umåtelig viktig.,\"Vi er ikke gode nok på skoleprestasjonene. Vi har prestert for dårlig over år. Vi vet ikke hvorfor, og det blir et tema på neste kommunestyremøte. Jeg tror ikke det er noe genetisk med oss hitterværinger.\",Bedre. Vi har lyktes med befolkningsveksten,,,Jeg tror det er tryggere for en barnefamile på Hitra enn i Trondheim.\nsnillfjord,Snillfjord,Johan Lernes ,,Ap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,\nhemne,Hemne,Odd Jarle Svanem ,,Sp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,\norkdal,Orkdal,Oddbjørn Bang ,,Sp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,\nmeldal,Meldal,Are Hilstad,,Ap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,\nmelhus,Melhus,Gunnar Krogstad ,,Ap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,\nselbu,Selbu,Ole Morten Balstad ,43,Ap,,,4,4,1,1,6,5,1 hall,\"3 haller, 2 basseng\",1,1,3,3,,,,\"Etter det nye inntektssystemet kom Selbu dårligere ut. Vi får 1,7 milllioner mindre. \",\"Ja, kommunereform og politireform er veldig sentraliserende. Vi ønsket å slå oss sammen med Tydal, men de ønsket ikke det. Det taper vi økonomisk på. Før hadde vi ansatte på lensmannskontoret hver dag, nå er det bare to dager i uka. Vi vet ikke hvordan det blir framover, det henger veldig i lufta. Det virker dårlig planlagt.\",Ikke noe som har gitt ubetinget postivt utfall.,De rødgrønne foreslo mer penger til kommunene i sitt alternative budsjett. Vi mister også de regionale distriktsutviklingsmidlene. ,\"Å fortsette utviklingen på næring og folketall. Vi har jobbet hardt med å øke befolkningstallet de siste årene, men vi har fortsatt en jobb å gjøre. Vi ligger gunstig til i det nye Trøndelag, med nærhet til tyngdepunktet Væres-regionen.\",,\"Jeg har tro på digital kompetanse. Høyhastighet-fiber er viktigere enn å kunne kjøre i 100 på veiene. For at folk skal kunne jobbe der de bor, er det alfa og omega. Nå gir vi iPad til alle elever, en unik satsing.\",\"Jeg er oppvokst her. Vi har stor plass, rein luft og to timer til Stockholm, København og London. Det er ikke noe som er dårlig med bygda, jeg er ihuga bygdepatriot. Noen sier dte er for gjennomsiktige forhold. Det har jeg aldri opplevd. \",Når du er 20-25 år er byen veldig attraktiv. Den er mer pulserende og det fins ulike typer folk. Det jeg ikke liker med byen er at det er for kort vei til naboen og for langt til naturen. ,Kort fortalt: Rein luft og godt oppvekstmiljø.,\"Jeg er veldig optimistisk! Da er Selbu full av digital infrastruktur. Folk kan jobbe der de er, om de har kontor i Selbu eller på Tyholt. Vi har blitt en attraktiv bokommune. \",\"Jeg er opptatt av butikken som samlingssted. Her kan jeg hefte en time. Butikken forsterker det sosiale fellesskapet. Folk her er også mer sosiale på tvers av alder, selv om dette også er i endring. Da jeg var fem år, besøkte jeg de som var 80. Det er jo håpløst å skru tida tilbake, men vi kan få til noe av det.\",\"Den er veldig god. Utstyret er oppgradert og brannstasjonen er ganske ny. Oftere og oftere ankommer de ulykkesstedet først, noe som krever noe annet enn det å være brannmann. \",Beredskapen er god. Vi har en bil stasjonert her. Og Tydal-bilen er her en del. Vi har ikke hatt endringer på dette de siste årene. ,,\"Mobildekningen er bra, vi har ikke 4 G overalt, men nesten. Veiene har et potensiale for å si det sånn. Men det jobbes jo med oppgradering av fylkesvei 705, det blir aldri nok penger til vei.\",Jeg vil trekke fram Selbu Byggtre. De har nå 20 ansatte og gjør det godt.,\"Vi har slitt med å bygge ut fiber, det har kommet litt sent, men nå er det full gass. \",\"Vi har det bedre i 2017 enn i 2013. Men det er ikke på grunn av rammebetingelsene. Vi har snudd et negativt resultat til positivt, takket være dyktige ansatte.\",,,Høyhastighet-fiber er viktigere enn å kunne kjøre i 100 på veiene\noppdal,Oppdal,Kirsti Welander,,Ap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,\nrennebu,Rennebu,Ola Øie ,,Ap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,\nmidtre_gauldal,Midtre Gauldal,Sivert Moen ,,Ap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,\ntydal,Tydal,Ole Bjarne Østby ,,Sp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,\nroros,Røros,Hans Vintervold ,,Ap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,\nagdenes,Agdenes,Oddvar Indergård,,Bygdeliste,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,\nholtalen,Holtålen,Jan Håvard Refsethås,,Sp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,\nklaebu,Klæbu,Kirsti Tømmervold,40,Ap,,,3,3,1,1,6,7,\"1 hall, 1 basseng\",\"2 haller, 1 basseng\",0,0,2,2,,,,\"Vi fikk 3,4 millioner mindre i 2017 etter at nytt inntektssystem ble innført. Men dette kompenseres i perioden 2017-2019 fordi vi skal slå oss sammen med Trondheim. \n\",\"Nei, vi ligger så nært byen. Vi har valgt å slå oss sammen med Trondheim, og jeg er sikker på at det kommer til å bli positivt for vår kommune. 30 prosent sa nei til sammenslåing, og det skal vi også ta på alvor. Vi har hatt et lensmannskontor, men det har vært lite åpent. Nå flyttes det til Heimdal, og det ligger jo nært oss. \",Det er et pluss at vi blir kompensert for å slå oss sammen med Trondheim.,\"Fordelingsnøkkelen gikk i vår disfavør. Nå skal vi bygge nytt helse - og velferdssenter, og dette stresser vi litt med siden regjeringen har sagt at de skal kutte i støtten til rehabilitering av sykehjem.\",Antallet eldre vi får mot 2040. Vi er den kommunen i Sør-Trøndelag som får størst prosent økning i eldre over 80 år. Det var en av årsakene til kommunesammenslåingen. ,\"Jeg er veldig i tvil når det gjelder barnevernet, men jeg synes vi levere gode tjenester innen barnehage, skole og omsorgstjenestene. \",\"Klæbu er bygda i byen, og vi skal fremdeles ha et godt loklasamfunn. Når vi blir en del av Trondheim må vi må passe på at vi fremdeles har gode tjenester nært befolkningen i Klæbu. \",\"Vi har gode lokalsamfunn med gode skoler og barnehager, samtidig som vi bor nært byen. Det er en utfordring å gi gode nok tjenester der du trenger spisskompetanse, for eksempel til terminalpasienter og pasienter med spesielle diagnoser. \",\"Noe blir  bedre når vi blir en del av trondheim, mens noe kanskje blir verre. Men vi kan ikke stå alene. Det er kanskje lettere å bli ensom i byen, på bygda blir du sett på en annen måte. Selv om det sikkert fins ensomme mennesker i Klæbu også.\",\"Jeg ønsker å ha litt plass, være nært naturen. Jeg vil ikke bo meg ihjæl økonomisk.\",\"Jeg er optimistisk. Om fem år har Klæbu 200 000 innbyggere. Jeg blir mer og mer overbevist om at dette er riktig. Men skolen, ungdomsklubben, barnehagen og sykehjemmet skal fremdeles ligge der det ligger. Vi vil få konvolutter det står Trondheim på, men ellers tror jeg ikke innbyggerne vil merke stor forskjell.\",På bygda er du en del av et lite lokalsamfunn og du lever nært naturen. De som bor der har nok tatt et bevisst valg.,\"Vi er en del av Trøndelag barnn og redningsstjeneste, med Sandmoen som nærmeste brannstasjon. Vi føler oss trygge når den er så nært.\",Vi ligger nært St. Olavs og har et interkommunalt legevaktsamarbeid med Trondheim. ,\"Vi har hatt et lensmannskontor, men det har vært lite åpent. Nå flyttes det til Heimdal, og det ligger jo nært oss. \",\"Bussforbindelsen er ganske god i uka, men det er en utfordring på kveld og helg. Vi har ikke hatt gang - og sykkelvei til byen før, men det skal vi få nå.\",\"Vi har kanskje ikke de beste klæsbutikkene, men vi har flere bedrifter som satser på nisjeprodukter. Klæbu Håndbakeri baker alt glutenfritt og Selbu spinneri tar imot ull og foredler dette. Vaaganhuset har fått matprisen under Matfestivalen. I fremtiden bør vi ha som mål å bli enda bedre på slike nisjer.\",Vi har hatt 2000 ferdigregulerte bolitomter i mange år. Også et næringsareal på 2000 mål. Dette har ikke blitt realisert fordi infrastrukturen ble for dyr. Når vi blir en del av Trondheim håper vi å få til dette. ,\"Det er bedre nå enn for fire år siden. Vi har hatt mindre penger til tjenester, men vi har blitt mer effektive. \",,,Om fem år har Klæbu 200 000 innbyggere. \nmalvik,Malvik,Ingrid Aune,,Ap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,\nskaun,Skaun,Jon P. Husby ,,Sp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,\norland,Ørland,Tom Myrvold,,H,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,\nflatanger,Flatanger,Olav Jørgen Bjørkås ,57,Sp,,,3,3,1,1,2,2,1 hall,\"1 hall, 1 svømmebasseng\",0,0,3,3,,,,Vi har fått 400 000 mindre i RUP-midler (regionale utviklingsmidler) fra 2013 til 2017. Vi har hatt en realnedgang i frie inntekter (,\"Ja, i mange sammenhenger. Lensmannskontoret legges ned og flere stalige oppgaver er flyttet på. Dette er en prosess som har gått over lang tid. Når Trøndelagsfylkene slås sammen blir det også større avstand til møter. \",\"Den har lempet på PD-forskriften (Slakting av all fisk i anlegg med sykdommen PD har vært måten å begrense smitten i Nord-Trøndelag. Fiskeriminister Per Sandberg ga Mattilsynet fullmakt til å ta andre metoder i bruk, red.anm.).\",\"Den har redusert de regionale utviklingsmidlene, og det slår veldig uheldig ut for Flatanger. Vi trenger midler for å legge til rette for næringslivet. Regjeringen sier den skal satse på næringsutvikling, men vi oppplever at det er stikk motsatt. Det går også for tregt å bygge ut bredbånd og mobildekning. På kommunehuset har vi ikke fiber engang. \",\"Folketallsutviklingen, der holder vi ikke tritt med resten av landet. Men det som er artig, er at det ser ut til at endel unge folk flytter hit og får arbeid nå. Vi har stort press på leiligheter og hus til leie. \",\"Ja, vi gjør det. Vi har bra tjenester. Men de som ikke er lovpålagte sliter vi med - tilrettelegging for næringslivet, bredbånd og annen infrastruktur.\",\"Det må tilrettelegges for etableringer i næringslivet, for eksempel infrastruktur. I byen ordner de private dette, men hvis kommunen ikke gjør det i distriktet, blir det vanskelig. Og så er det sosiale livet viktig for at folk skal trives, vi må lage møteplasser for barn og unge\",\"Jeg har aldri prøvd noe annet enn Flatanger, jeg har ikke engang flytta hjemmefra! Jeg bor i det samme huset som jeg vokste opp. Det er et paradis her på kysten, sjø, fjell, alt vi ønsker oss. Men det er krevende med avstandene, og dte sosiale nettverket kan kanskje bli spinkelt. \",\"Lett tilgang på kultur og fritidsaktiviteter, det er mye ungdom som drar inn til Trondheim. Byen mangler stillheten.\",Jeg er født på gård og har vært bonde. Jeg har valgt å ta den hverdagen. Det har jeg ikke angret på ennå. ,\"Jeg er veldig optimistisk. Det vil fortsatt være en positiv utvikling på arbeidsmarkedet, særlig for dne sentrale delen av Flatanger ser det lovende ut. Hvis vi får handlekraft til å tilrettelegge, vil den gode utviklingen fortsette. \",\"Det er nå både og på bygda også. Det kan være krevende å komme hit og lykkes, du skal ikke gjøre store feil før du blir lagt merke til. Fordelen er at det er lettere å bli sett hvis du trenger hjelp også. Vi har kanskje også blitt mer opptatt av oss sjøl etterhvert, dugnadsviljen er kanskje ikke like sterk som den var. Men likevel: Tangsprellhelga er resultat av kolossal dugnadsånd, der er det frivillig arbeid i stort monn. Men det kanskje den voksne generasjon som er dyktigst\",\"Vi har eget deltidsansatt brannkorps, med depot-styrker i grendene. Det fungerer utrolig bra, vi fikk jo testet dette til gangs under storbrannen. Men jeg opplever liten respekt for arbeidet de gjør fra overordnet myndighet. Det kreves kurs og utdanning, men dette er folk som er i full jobb, så det er ikke så enkelt. \",Den er veldig bra. Det er hele tiden to på vakt. ,\"Lensmannskontoret er nedlagt, og vi får en politikontakt i stedet. Oppgavene er ikke helt klarlagt ennå. Det gjenstår å se hva det gjør med det forebyggende arbeidet.\",\"Ingen endring de siste årene. Bestillingstransporten fungerer veldig bra, da kommer det en drosje og henter deg. Veiene er jo dårlige, jeg skulle gjerne hatt noen nye veibiter.\",\"Det er samarbeidet mellom kommunen og næringslivet, der vi har fått til mange nye etableringer. Det er bygd et rensefiskanlegg for 100 millioner, og vi har samlet kompetanse på havbruksnæringen på et senter til 30 millioner. Forskning og utvikling ligger langt framme\",\"Vi vil mye mer enn vi evner å gjennomføre. Politikerne vil hele tiden mer enn administrasjonen har ressurser til. Vi har kuttet i administrasjonen på grunn av økonomien, så det er ikke nok hender og føtter til å gjøre alt. I tillegg pålegges vi stadig nye oppgaver fra staten, nye tilsyn og analyser som skal gjøres.\",\"Ingen endring. Den har ikke blitt dårligere, bortsett fra kanskje på infrastruktur. De kommunale tjenestene har ikke blitt dårligere. \",,,Det ser ut til at endel unge folk flytter hit og får arbeid nå\nfosnes,Fosnes,Trygve Sandvik ,,Sp,,,3,3,1,1,2,2,1 hall,1 hall,0,0,3,3,,,,,,,,,,,,,,,,,,,,,,,,,\nfrosta,Frosta,Trine Haug ,32,Sp,,,1,1,1,1,4,4 (3 neste år),\"1 hall, 2 basseng\",\"1 hall, 2 basseng\",0,1,2,2,,,,\"Vi får 3,8 millioner mindre å rutte med neste år. Dette har skjedd gradvis, i løpet av en treårsperiode.\n\",\"\nBåde ja og nei. Vi har mistet NAV-kontoret slik det var. Nå har vi et lokalkontor der det skal være folk to dager i uka, mot fem dager før. Vi har også mistet lensmannen, nå skal vi få en politikontakt. Tapet av NAV-kontoret er mest problematisk, men egentlig fungerer det greit begge deler – det er ikke langt til Stjørdal. \n\",\"Nei, ikke de siste årene.\",\"Kommunesammenslåingen fører jo til færre tilbud lokalt, men vi får 3,8 millioner i året fordi vi er en ufrivillig liten kommune. \n\",\"Få den rette fagkompetansen, særlig teknisk og jordbruksfaglig.\",\"Ja, vi får veldig gode tilbakemeldinger fra innbyggerne.\n\",\"Vi må ha nok næringsareal og god nok infrastruktur til å lykkes med næringsutvikling. Vi fikk heldigvis fiber og bredbånd for halvannet år siden. Så er det viktig med gode nok veier slik at det blir greit å pendle. Selv sliter vi med for lite næringsareal, det er jordbruksareal overalt rundt oss. \n\",\"Det er rolig, ikke noe støy og levven fra trafikk. Kort vei fra avgjørelser er tatt og til de blir gjennomført. Dugnadsånden, alle tar ansvar for å utvikle bygda. Det negative er avstanden til en del tjenester, som pass og legevakt. Og alle kjenner jo alle, man blir veldig synlig, på godt og vondt. Mange har flere roller, som ansatt, leder, politiker, forelder – da må man passe på hatter og habilitet.\n\",\"Alt er lett tilgjengelig, bussen går rett utenfor stuedøra. Men hver gang jeg er i Trondheim, tenker jeg: Så glad jeg er for at jeg slipper å bo der! Trafikk-kork hele tida, aldri stille. Jeg lå på et hotellrom nylig, ute var det leven hele tida.\n\",\"Jeg trives veldig godt i lokalsamfunnet vårt. Jeg har også funnet en kjærest herfra. Ungene får en trygg og god oppvekst. Jeg vil at datteren min skal ha den samme oppveksten jeg sjøl hadde.\n\",\"Jeg er veldig optimistisk og tror på regjeringsskifte. Jeg er veldig bekymret dersom denne regjeringen fortsetter. Det er en fare for at vi vil bli sammenslått. Om fem år har vi fått til enda mer næringsutvikling, vi har enda flere boliger og en helt ny barnehage. Ny E6 er ferdig slik at enda flere kan pendle – da bruker vi ti minutter mindre til Stjørdal.\n\",\"Ja, det tror jeg nok. Å bry seg om andre, være opptatt av hva som skjer i lokalsamfunnet. Og ja, dette er nok under press. Engasjementet hos de yngre er nok mindre nå enn før. Alt er så tilgjengelig nå, vi har det så bra, mange sier det ikke er noe å kjempe for. Alt er et tastetrykk unna. Til og med på Frosta får vi mat levert på døra.\n\n\n\",\"Brannfolkene er dyktige, og ofte er de først på ulykkesstedet. \n\",\"Vi har ingen egen ambulanse, men vi har et legevaktsamarbeid med Levanger.\",\"Vi har mistet lensmannskontoret og skal få en politikontakt. Men de rykker raskt ut fra Stjørdal, og vi har veldig lite lovbrudd her.\n\",\"Vi har bygget ut bredbåndet, men sliter litt med mobildekningen noen plasser. Vi har også en tilbydertjeneste der du kan ringe og bestille taxi til busspris. Fylkesveien trenger oppgradering.\n\",\"Det vi har fått til på grønnsakhandel, det er tenkt nytt. Perlepoteten for eksempel. Vi har også Klostergården med håndbrygget øl og Rågod med varer rett fra bonden.\n\",\"Vi skal bygge ut et nytt kloakksystem, men her har vi ikke kommet så langt som vi ønsker.\",\"Ingen endring. Kommuneøkonomien er mer utfordrende. Vi har fått flere lovpålagte tjenester uten at det følger med midler. Barnevernet er den store utfordringen. Jeg tror innbyggerne på Frosta har det like bra nå som før, men de merker nok at kommuneøkonomien er strammere.\",,,\"Hver gang jeg er i Trondheim, tenker jeg: Så glad jeg er for at jeg slipper å bo der! \"\ngrong,Grong,Skjalg Åkerøy,65,Ap,,,3,2,1,1,4,4,\"2 haller, 1 basseng\",\"2 haller, basseng under oppussing\",1,1,4,4,,,,Overføringene er gått ned. Vi kom dårlig ut på det avstandskriteriet.,Vi blir jo utfordret på det. Men verken politireformen eller NAV får konsekvenser for oss. Vi er ett av få lensmannskontor som blir opprettholdt.,\"Nei, jeg kan ikke komme på noe.\",\"Vi ser utfordringer i kommuneøkonomien, det strammes inn og prisveksten blir ikke kompensert for. Det verste er at flyktningemottaket ble nedlagt. Vi var tidlig ute med flyktningemottak, har hatt det siden 1998. Vi har mistet arbeidsplasser, kompetanse og omsetning lokalt. Hvorfor kan de ikke heller legge ned i sentrale strøk?\",\"Vi må skape arbeidsplasser, det må vi i hele Namdalen. Klarer noen av oss å få nye arbeidsplasser, er det bra for folketallet.\",\"Jo, det klarer vi absolutt. Vi har hatt utfordringer knyttet til å få stabile fastleger. Stort gjennomtrekk på leger er et problem for mindre kommuner.\",\"En stabil kommuneøkonomi, økning i folketallet, slutte med alle disse reformene som er svært krevende for kommunene, både økonomisk og personellmessig. Kommunereformen ble altfor uklar og folk er frustrerte.\",\"Det beste er god plass, fin natur og gode tjenester. Vi har et rikt kulturliv. Vi har fått et nytt kulturhus som gjør oss enda mer urban enn før. Det som ikke er bra? Nei, jeg kan ikke si noe.\",\"Trangboddhet og mangel på plass. Før kunne vi reise til byen for å få kulturopplevelser, men det trenger vi ikke nå. \",\"Å bo i blokk, ligger ikke for meg. Her har jeg naturopplevelsene og god plass. Jeg har bodd her siden jeg ble født. \",\"Da har vi enda flere tilbud på handel og service, vi er et senter i Namdalen med enda bedre kommunikasjoner og har en liten vekst i folketallet. \",Friheten. Tilgangen på natur. Vi har god plass for å si det sånn. ,\"Veldig bra. Vi har et samarbeid i Namdalen. Ny brannstasjon, ny brannbil, god opplæring.\",Veldig bra ambulanseberedskap. Vi har to ambulanser.,Vi har fortsatt lensmannskontor. Det har noe å si! Kortere responstid og viktige arbeidsplasser. ,\"Den er bra, men ikke god nok. Vi har fire togavganger og bussforbindelse til Namsos og Brønnøysund. Trønderbanen skulle vært forlenget hit. E6 skriker etter oppgradering. Vi lå inne, men ble tatt ut av transportplanen. \",\"Kuben, det nye kulturhuset er en stor suksess med masse ny aktivitet. Vi får to nye forretningsbygg. Jernbaneverket har skaffet oss 28 nye arbeidsplasser.\",\"At flyktningemottaket ble nedlagt, var en stor skuffelse. Det var en viktig arbeidsplass. \",\"Det gror godt i Grong-bygda. Vi får nyetableringer fra Rema og Europris, vi er en stor bilbygd med fem bilforretninger som ekspanderer med utgangspunkt i Grong, vi har fått vedlikeholdsverkstedet til Jernbaneverket. Vi er en internasjonal kommune med flyktninger som har satt preg på bygda. Jeg sier tommel opp! Jeg skriver en årsmelding nå og er imponert over hva vi får til i løpet av året. Og nå får vi nye Trøndelag fra 2018. Spennende!\",,,Det verste er at de la ned flyktningemottaket. 2. Det gror godt i Grong-bygda\nhoylandet,Høylandet,Hege Nordheim-Viken,47,Sp,,,1,1,1,1,1,1,\"1 svømmehall, 1 basseng\",\"1 svømmehall, 1 basseng\",0,0,2,2,,,,\"Største endring for oss er omgjøring av det som før var Namdalstilskudd og småkommunetillegg. Her mistet vi ca 1 million kroner. Ellers kommer vi litt negativt ut på nye fordelingsnøkler i det gjeldende inntektssystemet, blant annet på tilskudd til ressurskrevende brukere. Regjeringen har også redusert kraftig på regionale utviklingsmidler (RUP-midler) til fylkeskommunene, noe som gjør at disse midlene er mye lavere enn før. \n\",\"Ja. Vi hadde felles lensmann med Overhalla, men nå blir det nærmeste lensmannskontoret Grong/Namsos. Vi får en politikontakt, men vet ennå ikke hvordan dette blir. Nå blir avstanden større, og i det forebyggende arbeidet er nærhet viktig. Når Trøndelag slir ett fylke, får vi lenger avstand til politikerne som skal være i Trondheim. \",\"Vi ble ikke slått sammen med noen, men arbeidet med reformen har likevel overskygget arbeidet i kommunen. \n\",Inntektssystemet har gjort at vi har hatt en noe negativ endring på inntektssiden. ,Vi ønsker flere innbyggere og større vekst i næringslivet. ,\"Ja. KS i Nord-Trøndelag utførte en spørreundersøkelse i forbindelse med kommunereformen, og da skåret Høylandet på topp. Vi har også interkommunalt samarbeid på en rekke områder.\",Man må sørge for et godt tiltaksapparat for næringslivet. Det må være kort vei fra en god idé til gjennomføring - uavhengig om det er i Røyrvik eller Trondheim. ,Å leve i et lite samfunn der du kjenner omgivelsene. Sette kajakken på vannet og gå tur i fjellet - rett utenfor husveggene. Men vi har jo ikke det samme vareutvalget som i byen.,\"Hvis du er glad i folk, er byen rette plassen. Og det er lettere å gjøre unna julegavehandlinga. Lange køer og kaos er ulempen. Jeg har respekt for at noen folk elsker å bo tett, men jeg setter pris friheten på landet.\",Vi flytta fra Bødo for å ta over gård. Høylandet er også kjent for å ha gode oppvekstvilkår.,\"Jeg er optimist, ja! Vi har nettopp feiret 30-års-jubileum for NM i revy, og det er fantastisk å se hva som bor i folk her.  Forhåpentligvis har vi nådd 1300 innbyggere, flere bedrifter er etablert og vi har bygget flere hus og boliger. I dag er det flere som ikke tør å sette pengene i hus som kan gi verditap dersom man ikke blir boende på Høylandet. \",\"Jeg opplever at i små lokalsamfunn er man opptatt av hverandre, at andre skal ha det bra. \",\"September 2015 inngikk Grong, Overhalla og Høylandet et samarbeid, og etablerte Namdal Brann og redningsvesen. Grong kommune er vertskommune. Namdal brannvesen har 4 heltidsansatte, og brannkonstablene er deltidsansatte. Dette fungerer godt.\n\",\"Vi kan ikke klage slik det er nå. Vi har ingen ambulanse stasjonert i kommunen. Nærmeste ambulanse er Grong. Det har ikke vært endringer for oss de siste fire år. \n\n\",\"Vi har hatt felles lensmann med Overhalla kommune, som har hatt kontordager på Høylandet. Dette har fungert greitt. Lensmannen har vært en viktig samarbeidspartner i det forebyggende arbeidet i kommunen. Også når kriser oppstår, har vi sett nytten av at lensmannen inngår i kriseteamet, og har tilstrekkelig lokalkunnskap \",\"Fylkesvei 17 går gjennom kommunen, og det er alltid et spørsmål om å utbedre denne., særlig på grunn av laksetransporten. Vi jobber også med å forbedre mobil - og bredbåndsdekning. Vi har fiber i sentrum, men ikke i hele kommunen. det er et nasjonalt ansvar å sørge for dette.\",\"Det er umulig å ikke nevne revyfestivalen, som er basert frivillighet. \",Vi har ennå ikke fått til en satsing på den store mineralforekomsten inne i fjellet på Kongsmoen.,Bedre. Vi leverer gode kommunale tjenester og bedriftene er ved godt mot. Vi har lyktes i å videreutvikle kommunen.,,,\"Det må være kort vei fra en god idé til gjennomføring - uavhengig om det er i Røyrvik eller Trondheim. \n\"\ninderoy,Inderøy,Ida Stuberg,35,Sp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,\nleka,Leka,Per Helge Johansen,,Sp,,,1,1,1,1,1,1,1 hall,1 hall,0,0,2,2,,,,Vi har hatt en positiv utvikling fra i fjor til i år - nesten ti prosent økning. Når vi tar imot flyktninger får vi også flere innbyggere og større overføringer. Vi har brukt pengene godt og fått et lite overskudd.,\"Du får ikke større råskap enn det Leka har blitt utsatt for. Vi er tvangssammenslått (med Nærøy, Vikna og sørlige Bindal, red.anm.) De tar fra oss rådmann, ordfører og administrasjon. Det er vi som er talerøret til kommunen, og vi er den største arbeidsplassen. Når vi blir lagt ned, kan vi ikke lenger stille opp for Leka. Vi er en perle på kysten, vi hadde 14 søkere til rådmannsjobben, vi har fått en økonomisjef fra Malvik, hun trives bedre her - og de unge vil hit. Men da må vi tilby arbeidsplasser, og nå skal de kommunale legges ned. Vi har to nye svenske leger her, men de kommer til å flytte når vi blir slått sammen. Det blir for store avstander og for lange vakter, synes de. Nå kommer lege til stedet innen fem minutter og vi har ambulanse. Men de andre kommunene vi skal slås sammen med har samarbeid med Namsos og Grong. Da tar det tre timer å komme seg til lege. \n\",Absolutt ingen. ,\"Se spørmål om sentralisering.\n\",\"I dag takler vi alt utmerket. Vi har 55 kommunale årsverk og 50 millioner i budsjett. Barnevernet samarbeider vi allerede med Nærøy og Vikna om. Nei, den store utfordringen er at vi kan få et dårlig naboskap. Jeg har ikke tillit til nabokommunene, de støttet oss ikke da vi trengte det i sammenslåingsprosessen. Vi blir en stor kommune, det blir en alles kamp mot alle. 21.august skal vi ha et møte der alle kommunene møtse. Det er departementet sopm tvinger oss til det. Det er ingen her på Leka som skjønner hvorfor vi skal ha dette møtet. Jeg vet ennå ikke om jeg skal møte opp. Jeg kommer til å kjempe mot dette til siste slutt. Nylig fikk jeg overrakt et lite monument laget av den spesielle Leka-steinen. Per Helgologiske nasjonalmonument stod det på den. Det var utrolig sterkt. Leka skal være ledestjernen i motstanden mot denne galskapen, vi skal kjempe for rettferdighet til siste slutt. Harald Hårfagre tok Leka med sverd og skjold. Sanner har i det \",Ubetinget ja! ,Vi må beholde dagens kommunestruktur. Den norske velferden er bygd gjennom små og store kommuner. Derfor er Norge verdens beste land å bo i. ,Tryggheten. Vi har ikke noe å være redd for bortsett fra kommunereformen og Jan Tore Sanner. Nå står vi med lua i hånda. Det er like ydmykende hver gang jeg åpner en epost fra Fylkesmannnen.,\"Det fineste jeg vet er når jeg kan treffe en god venn i Oslo. Da føler jeg meg fri og kan gjøre hva jeg vil uten å bli lagt merke til. Da kan man sitte og se på alle de fine, kraftfulle folka, de som skal utrette noe, sannsynligvis noe bra. Men når jeg er på Tjuvholmen eller Aker Brygge ser jeg forskjells-Norge, på Karl Johan ser jeg de som falt utenfor. Det er ikke noe å skryte av. Og skulle jeg bodd der, ville jeg vært redd for å bli ensom.\",Jeg er vokst opp her og har interesse for landbruk og natur. Jeg er venn med alle her.,\"Jeg er mest optimistisk, for da er vi friskmeldt fra kommunereform. Sp vil ha stoppet galskapen, og vi ser et folketall i vekst. Noe annet er ikke muli, de kan ikke vinne fram. \",\"Kraften til å overleve, ærlighet og godhet. Å bry seg om lokalsamfunnet og stille opp når det trengs. Vi står i lag. Nå er vi på krigsstien, som de sier i Donald Duck.\",\"Veldig bra. Vi deler brannsjef med Vikna, memn vi har egen brannstasjon med to biler og godt utstyr. \",Vi har en egen vaktambulanse på øya fra 8-16. Det må være slik. ,Lensmannskontoret skal legges ned og vi skal få en politikontakt. Foreløpig fortsetter dagens lensmann som politikontakt. ,\"Veldig bra. Vi har nå fått mobildekning i hele kommunen, og i løpet av året får alle internett og 4G. Veistandarden er også bra. Ferjeforbindelsen er bra nå, men vi frykter at fylkeskommunen vil redusere tilbdet.\",\"De siste årene har vi tatt imot til sammen 19 flyktninger - det har vært et eventyr! De trives så godt, de er med overalt og er bare godt likt. Vi har blitt glade i dem, de er verdens snilleste folk. De jobber i butikken og bygger amfi. Og de øker folketallet! Leka-samfunnet var overmodent for å ta imot dem.\n\",\"Jeg ser ikke at det er noe å klage på. Vi driver godt. Men som ordfører føler jeg hele tiden at jeg ikke får gjort nok, at jeg ikke er god nok. Det er vanskelig å være god med alle og ha godt humør hele tiden.\n\",Bedre. Som øykommune har vi fått ti prosent økning i inntektene.,,,Du får ikke større råskap enn det Leka har blitt utsatt for. Vi er tvangssammenslått \nleksvik,Leksvik,Steinar Saghaug,65,H,,,2,2,1,1,5,5,\"2 haller, 2 basseng\",\"2 haller, 2 basseng\",0,0,3,3,,,,Det har vært en 11 prosents økning fra 2013. Når vi slår oss sammen med Rissa vil vi fortsette med samme tilskuddsordning.,\"Ja. Brannberedskapen er sentralisert. Politi også, selv om det ikke får konsekvenser for oss direkte. Ja, det skjer en sentralisering, men det er ikke negativt. Vi blir mindre sårbare og får bedre tjenester. \",\"Da tenker jeg på samferdsel, Fosen-veiene, selv om det ikke skjer i vår kommune. At selskapsskatten og formuesskatten har gått ned er også bra for næringslivet.\",Landbruksoppgjørene kunne vært bedre. Regjeringen må gjøre det mulig å drive landbruk i distriktene og bidra til at landbruket utvikles.,\"Det er en utfordring at vi ikke har samme lave arbeidsgiveravgiftssats som nabokommunene. Vi er distrikt vi også. Vi har vært på Robek-lista og har en betydelig utfordring når det gjelder vedlikehold av kommunale veier og bygg. Vi er ute nå, men det har vært tøffe tak.\",,\"Samferdsel er nøkkelen. Trondheimsfjorden er kommet for å bli. Ei bru vil måtte komme og bidra til at Fosen kommer nærmere. Landbruk må kunne drives i distriktene, vi må ivareta kulturlandskapet. Og så må det satses på forskning og utvikling for endring og omstilling av industrien. \",\"Det beste er med bygda er samholdet, fellesskapsfølelsen. Jeg synes det er veldig fint å bo på bygda. Det verste? At vi bruker lenger tid på å få utviklet det vi ønsker, fordi det er begrenset med ressurser. \",I byen er det beste at alt er tilgjengelig. Det verste er at jeg tror ikke du har den samme fellesskapsfølelsen.,\"  Jeg vokste opp i Leksvik. Det var aldri tema å flytte til Trondheim. Her kjenner jeg dem jeg vokste opp med, det har med trivsel å gjøre.\",\"Da har vi en felles videregående skole i Vanvikan, vi har fått ny barnehage og grunnskole og et nytt flerbrukshus med bibliotek og stor kultursal. Folketallet har økt og vi har en industri som er fremoverlent.\",\"I mindre kommuner har vi sterkere fellesskap, alle skal trives, vi bryr oss om hverandre. Det er viktig at ingen er utafor. Folk er opptatt av å spille på lag og er veldig fornøyd selv med små forbedringer kommunen får til. \",\"Det fungerer veldig bra, vi har gjort en del forbedringer på sikkerhet og jeg er godt fornøyd med å være tilknyttet Trøndelag brann og redningstjeneste.\",Vi har en god ambulanseberedskap. En ambulanse er stasjonert i Leksvik. Vi hører til Levanger sykehus og er fornøyd med det. Legehelikopter er også tilgjengelig.,\"Den er godt ivaretatt. Fra nyttår, når vi blir Indre Fosen kommune, blir vi knyttet til lensmannskontoret i Rissa. \",\"Hurtigbåtsambandet fungere veldig bra, det gjør også fergesambandet. Internt i den nye Indre Fosen kommune er det veldig dårlig offentlig kommunikasjon.\",Vi er kommet oss ut av Robek-lista! Takket være solid innsats fra alle ansatte.,\"Det var ikke artig å innføre eiendomsskatt på verker og bruk. Det er en skatt næringslivet må betale, uansett om man ikke driver med overskudd. Det er tungt for mange, men vi skal avskaffe den nå da. \",\"Det har jo ikke skjedd så mye fordi vi har vært på Robek-lista og har hatt lite handlingsrom. Vi har ikke hatt rom for investeringer eller nødvendig vedlikehold. Kanskje jeg skal si uendret? Nei, det har jo blitt bedre, vi er ute av Robek, det skjer mye bra! Tommel opp for Leksvik.\",,,Folk er veldig fornøyd selv med små forbedringer kommunen får til. 2. Ei bru over Trondheims-fjorden må til\nlevanger,Levanger,Robert Svarva,48,Ap,,,,,,,,,,,,,,,,,,\"De statlige overføringene har økt, men det har også kommunens oppgaveportefølje, så handlingsrommet oppleves uendret.\",\"Ja. Vi har mistet lensmannskontoret vårt, nå deler vi kontor med Verdal. Vi opplever at det tar lenger tid før politiet kommer til stedet, men noen ganger kan det også gå raskere. Vårt lensmannskontor utstedet flest pass i Trøndelag, nå har ikke innbyggerne våre denne servicen lenger. Jeg var for en sammenslåing av Trøndelag, men vi ser utfordringer også. Det virker som en befestet sannhet at funksjonene enten skal til Steinkjer eller Trondheim. Hovedkontoret for NAV for eksempel. Vi føler at vi detter mellom to stoler. Det er veldig uheldig, for veksten skjer i vårt område. \",\"Én ting: De vil fortsatt satse på HUNT (helseundersøkelsen i Nord-Trøndelag), som vi er vertskommune for. Det har også vært positiv framdrift på samferdsel med det nye selskapet Nye Veier.\",,,,,,,,,,,,,,,,,,,\nlierne,Lierne,Bente Estil,,Ap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,\nmeraker,Meråker,Kari Anita Furnes,,Sp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,\nnamdalseid,Namdalseid,Steinar Lyngstad ,60,Sp,,,2,2,1,1,2,2,0 haller 2 svømmehaller,0 haller 2 svømmehaller,0,0,3,3,,,,Vi har synkende befolkningstall og da blir det reduserte overføringer. Vi er også en veldig skattesvak kommune. Vi er vesentlig dyrere å drive enn en gjennomsnittskommune her i landet.,Vi har fått nedlagt lensmannskontoret.,Vi har fått økte midler til småskolen.,\"Nei, ikke noe spesielt.\",\"Vi er en typisk pendlerkommune, med fire mil hver vei til Namsos og Steinkjer, så det har ikke hjulpet så mye å legge til rette med gratis industriområde og tomteareal. Vi har en stor utfordring med å skaffe arbeidsplasser, og sliter med folketallsutviklingen.\",Ja! Det er jeg veldig tydelig på at vi gjør og begrunner det med gode tilbakemeldinger fra brukerne. Det vi har slitt litt med er å få tilstrekkelig søkermasse på lærerstillinger. I høst har vi fylt opp. ,\"Kommuneøkonomi er viktig. Vi må levere gode tjenester og skape gode lokalsamfunn, sammenmed frivillige. Nærmiljøanlegg, lekeplasser, er viktig. Og så er vi helt avhengige av at næringslivet gis rammevilkår som gjør at vi, eller nabokommunene, skaffer arbeidsplasser. Det må til for at folk skal bo.\",\"Det beste er at vi har god skole, gode oppvekstvilkår, alle kjenner alle, det er mye natur, god plass - i tillegg til at det er kort vei til alt du måtte trenge i pendleravstand. Det verste? Jeg klarer ikke gi deg noe svar, jeg har ikke bodd annerledes, så jeg klarer ikke trekke fram noe som skal være verst. \",\"Jeg har bodd på Heimdal og jeg følte meg innestengt. Det er mye trafikk. Jeg tror det er enklere for en som bor i byen å finne seg til rette på bygda enn omvendt. Når noen er vant med å bo på landet, blir terskelen for å bo i by mye høyere.\",Etter at jeg ble voksen bestemte jeg meg for å bli bonde. Vi kjøpte et bruk i Namdalseid kommune i -88 og jeg har trivdes hver dag siden da. ,\"Vi skal inn i Namsos, sammen med Fosnes. Om fem år er Namdalseid minst like pulserende som nå, på alle vis. Vi leverer tjenester av god kvalitet, vi har ny skole og idrettshall og skal stå bedre rustet på de fleste områder. \",\"Ja. Frivilligheten er spesielt viktig verdi på bygda. Men det må også være politisk vilje til stede, og jeg er glad vi har fått frivillighetssentralen. \",\"Vi er en del av et interkommunalt selskap, har egen brannstasjon med to avdelinger og biler. Det fungerer bra. \",\"Namdalseid har ingen egen ambulanse, men er avhengig av at det kommer fra Verran/Steinkjer eller Namsos. Slik har det vært så lenge jeg kan huske og det fungerer.\",\"Ja. Vi har mistet vår lokale lensmann. Men det er oppnevnt en politikontakt som har utgangspunkt i Namsos. Lensmannen vi hadde bodde ikke her, så jeg tror ikke det blir de helt store endringene. Jeg ser jo at mye kan ordnes via nettet, politiet er ikke hva det en gang var. Hvis vi får en god kommunikasjon med politikontakten, og det forebyggende arbeidet mot barn og unge også blir prioritert, så tror jeg ikke det blir noe dårligere tilbud. Det er min overbevisning.\",\"Vi har Fylkesvei 17 og det går buss fra Steinkjer til Namsos en gang i timen på hverdagene. I tillegg har vi den svært gode tilbringertjenesten, der de som bor langt unna buss-stoppen, kan bestille drosjeskyss når de skal dra og når de kommer hjem. Vi har ingen grunn til å klage\",\"Jeg ble så glad da et samlet kommunestyre i 2013 vedtok å bygge et helt nytt sykehjem, og hvor vi har psykiatri/helsesøster og legekontor under samme tak. Etableringen av frivillighetssentralen høsten 2014, var også en stor seier. \",\"I mange, mange, mange år har vi ønsket oss en idrettshall. Det kommer nå i 2019, da får vi skole med tilhørende idrettsbygg. \",\"Til tross for stramme rammer, tommel opp, absolutt! Og så skal vi gå inn med Fosnes og Namsos i en god forvissing om at dette er det riktige for oss. \",\"Nabokommunen: Hjelper ikke med gratis industritomt, Namdelseid setter sin lit til at nabokommunene skaffer nye arbeidsplasser. \",\"Vi har mistet lensmannen, men det er min overbevisning at den nye ordningen blir et like godt tilbud, mener Sp-ordføreren i Namdalseid.\",. Vi kjøpte et bruk i Namdalseid kommune i -88 og jeg har trivdes hver dag siden da.    Jeg tror det er enklere for en som bor i byen å finne seg til rette på bygda enn omvendt. \nnamsos,Namsos,Arnhild Holstad ,54,Ap,,,10,10,4 bo og velferdssentre,\"1 sykehjem, 3 bo og velferdssentre\",20,20,\"1 svømmehall, en stor flerbrukshall\",\"1 svømmehall, en stor flerbrukshall\",1,1,9,8,,,,\"Det har økt noe, men flere oppgaver skal løses. \",\"Ja. Vi mister 110-sentralen. Det er ikke effektuert, men vedtatt. Det har også betydning at Statsskog er pålagt å ikke jobbe med energi, småkraftverksutbygging. Det er helt håpløst, statsråden (Listhaug, da hun var landbruksminister) sa til og med at man ikke hadde kompetanse på dette. Det er jo ikke riktig. Statsskog har, sammen med lokale grunneiere utviklet statens vannressurser. At de ikke kan gjøre det, svekker Statsskog, og dermed hovedkontoret i Namsos. Det er galskap og jeg er grunnleggende uenig i den beslutningen.\",\"Ja. For Namsos sitt vedkommende har kommunereformen ført til en frivillig sammenslåing med Fosnes og Namdalseid. Vi får en god start, med engangsstøtte og økte rammetilskudd, i tillegg til regiontilskudd. Det gir oss en helt annen mulighet. Vi har også fått støtte for å planlegge bru til Gjøa. Det har også vært veldig positivt for oss å ha en varaordfører fra Høyre. Da strekker regjeringen seg litt lenger slik at Høyre skal lykkes, dørene åpnes og det er fint, så lenge det er bra for Namsos, er det bra for meg. En annen som har bidratt sterkt som døråpner er Høyres Elin Agdestein. Hun har slåss mot sine egne og vært med å redde akutt-tilbudet ved Namsos sykehus.\",\"Ja. Endringene i flytider og avganger ved Namsos lufthavn ble en stor skuffelse. Til tross for at vi hadde gjort en stor jobb med å kartlegge folks behov, ble vi ikke lyttet til, de visste bedre. De mente vi var hysteriske og ikek visste vårt eget beste. Det ble ikke bra i det hele tatt, og nå stuper trafikken. Det er ekstra synd for næringslivet. Nå må vi bruke masse ressurser på å prøve å forbedre tilbudet, før folk legger om reisevanene sine og heller kjører 5 timer tur retur Værnes.\",\"Å utvikle næringslivet. Namsos er en gammel handelsby, nå kan alle kjøpe alt på nettet. Det får konsekvenser. Vi må være sulten nok til å etablere nye arbeidsplasser og sikre befolkningsvekst.\",\"Ja, i dag gjør vi det. Men det gir ikke seg selv og vi bør vokse som kommune. \",\"Et stort spørsmål. Helt grunnleggende handler det om å ikke utarme distriktene. For gjør man det, er det ikke noen der til å utnytte ressursene som jo ligger i distriktene - det være seg havet, jordbruk, skogbruk, mineraler. Man må også legge til rette for at to kan jobbe å bo her - og det er ikke alle som kan være lærere.\",\"Det beste er at du på et lite sted har kontakt med alle lag i folket. Folk velger ikke venner ut fra sosialt nivå. Det er nabolaget og idrettslaget som bestemmer hvem som er vennene dine og det tror jeg er veldig sunt. Hva som er galt? Er det noe da? Jo, hvis folk mister trua på stedet, vil det kreve mye av hver enkelt. Alle må bidra. På et lite sted er det mye mer synlig at også du må trå til. Det krever mer av folk å bo på et lite sted for den enkeltes bidrag blir veldig viktig. Det kan også være vanskeligere å stikke seg fram. Men på den andre siden: Det er også flere som klapper deg på skuldra. \",\"Et stort jobbmarked er best med byen. Jeg er genuint by og land, hand i hand. Jeg har stor respekt for Trondheim og miljøene der. Gleden av å være anonym, er et ønske man kan ha innimellom.\",\"Namsos er perfekt. Liten nok til å være trygg og oversiktlig - et bra sted der ungene har fått vokse opp. Samtidig stort nok til at du har alt du trenger. Dessuten er namsosingene kjekke folk. Trivelige, artige, masse humor. Skikkelig laid back.\",\"Jeg håper vi er i vekst, at det er kommet nyetableringer - at vi fortsatt er den trivelige småbyen med muligheter og vekst, som folk har lyst å bo i. \",\"Alt du gjør, blir satt veldig pris på. Når næringsliv og frivillige, blir det verdsatt. Du blir sett. \",Den er god. Vi jobber for å bli større. Vi har brannstasjon og flyplassen har i tillegg eget utstyr og folk.,Den er bra! Vi har Namsos sykehus.,\"Jeg har inntrykk av at det er bra, vi skal være basen for Namdalen, og det må jo jeg som ordfører i Namsos være glad for. Men jeg forstår at kommunene rundt er bekymret. Folk ønsker å være trygge, er de ikke det, gror det igjen. \",\"Det nye rutetilbudet ved Namsos lufthavn er en tragedie, viser til tidligere svar. Ellers er jeg glad for å kunne planlegge bru til Gjøa, det store infrastrukturprosjektet internt i nykommunen. \",\"Suksessen vil jeg si er en kommunesammenslåing gjennomført i et usedvanlig godt samarbeidsklima som gjør at vi har en voldsom felles vilje til å få til noe bra! Det er også veldig bra klima i region Namdal, vi har nå fått et regionråd - og det tror jeg er bra for hele Namdalen. Nå tror virkelig nabokommunene at Namsos vil hele Namdalen vel, og slik er det.\",\"At 110-sentralen forsvinner, synes jeg er svært synd. Det er svært kompetente folk som nå mister jobben, det går an å tenke at det fins en og annen som har et brukbart hode på bygda også. Flytilbudet var en annen stor nedtur, folk blir forbanna og drar til Værnes i stedet. \",\"Samlet sett er det tommel opp, en bedring. Rock City-depresjonen er vekk! Namsos har en positiv drive og står ikke lenger med lua i hånda og unnskylder sin eksistens. Regjeringen drepte Rock City, men slett ikke bare den - og det er ingen poeng å fordele skyld i ettertid. Nå ser jeg på det som et næringspolitisk forsøk som ikke gikk. Det er ikke noe å være flau over. Da må vi prøve noe annet. Og vet du hva? Vi har fått masse bra ut av det. Og vi har den fine historien, som namsosingen er stolt av.\",,,Sitat 1: Rock City-depresjonen er vekk! 2. Det er galskap å nekte Statsskog å utnytte ressursene på egen grunn.3.Suksessen er en kommunesammenslåing gjennomført i et usedvanlig godt samarbeidsklima\nnaeroy,Nærøy,Steinar Aspli ,,Sp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,\noverhalla,Overhalla,Per Olav Tyldum ,,Sp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,\nroyrvik,Røyrvik,Hans Oskar Devik ,,Sp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,\nsnasa,Snåsa,Tone Våg ,,Ap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,\nsteinkjer,Steinkjer,Bjørn Arild Gram ,,Sp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,\nverdal,Verdal,Bjørn Iversen ,,Ap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,\nstjordal,Stjørdal,Ivar Vigdenes ,33,Sp,,,16,16,\"5 omsorgssenter, 1 sykehjem\",\"5 omsorgssenter, 1 sykehjem\",,,\"2 svømmehaller, 7 idrettshaller\",\"2 svømmehaller, 7 idrettshaller\",1,1,,,,,,\"Vi har flere innbyggere og får derfor mer penger, ellers ingen store endringer i inntektssystemet.\",\"Ja. Det er en sak, og den provoserer meg enormt. Det handler om politireformen, og sammenslåingen av nord- og sørtrøndelag politidistrikt. Vi mente, sammen med flere andre kommuner, at det var en fordel at hovedkontoret ble lagt utenfor Trondheim. Men, og det overrasket meg veldig, de var ikke engang interessert i å vurdere en annen lokalisering enn Trondheim. De kunne da tatt seg bryet med å vurdere et alternativ skikkelig, men nei. Det gjorde meg og mange andre frustrerte og forbannet. Jeg har aldri opplevd maken til arroganse som jeg opplevde hos politibyråkratiet der, og en justisminister som bare skygget banen. Dette sier noe om hvordan Justisdepartementet ser på å ta hele landet, ikke bare storbyene i bruk. Jeg vil kalle det en ukultur. \",Ja! Det har den. Særlig opprettelsen av Nye Veier og fremdriften i arbeidet med 4-felts motorvei. Liker også ambisjonene om å utvikle Værnes som forsvarsgarnison.,\"Nedleggingen av forskningsstasjonen på Kvithamar er meningsløs. Det er et stort tap for norsk og trøndersk landbruk. Dette var en hestehandel som ble gjort på bakrommenes bakrom. 100 år med tidsserier, forskning, uten at det er satt av noen midler til å erstatte dette. Og det kan ikke erstattes heller. Nå er det en nedleggelse uten erstatning. Det er tragisk.\",Vi har bare muligheter. Vi trives så godt at det er vanskelig å motivere seg til å reise andre steder. Men jeg vil likevel oppfordre innbyggerne til å se andre regioner og verden. Det kan være svært lærerikt.,\"Ja! Men vi kan bli bedre. Vi må forandre oss, for å forbedre oss, vi bedriver en kontinuerlig tjenesteutvikling. Jeg kunne tenkt meg en raskere fremdrift på regulerings- og plansaker for å legge til rette for den betydelige veksten vi har. Men - det er en fornem nød. \",\"Dette er en problemstilling vi har arbeidet mye med. Mange tror at en vekstkommune som oss ikke trenger det, men det har vi lagt store ressurser i. Vi må skape attraktive bomuligheter, gode offentlige tjenestetilbud og spennende arbeidsmuligheter innen pendleravstand. Og så må det skje spennende ting på fritida.\",\"Stjørdal består av flere distrikt, og en mer urban bykjerne. For meg som vokste opp i Forradal tenker jeg at det er tryggheten, oversiktligheten og samholdet som er best. Men det mener jeg vi har også i Stjørdal sentrum. Det verste er vel det samme som det beste: Det kan bli for oversiktlig og trygt, man kan føle behov for å komme seg bort og være alene en gang iblant. Det er godt det også. \",\"Fordelen med byen er nærheten til det meste. Men igjen: Der er Stjørdal perfekt, med nærhet både til natur, distrikt - samtidig som vi utvikler egen by og ligger nært storbyen og har en flyplass som tar oss ut i verden. Egentlig er det rart at folk vil bo andre steder enn i Stjørdal.\",\"Jeg er født og oppvokst i kommunen, har tilhørighet, venner og familie. Da er det naturlig at jeg stifter familie her. \",\"Da har vi passert 24 000 innbyggere, nærmer oss 25000. Vi har fått enda flere kommersielle aktører som lager spenstige opplevelsestilbud i sentrum, bykjernen er enda mer fortettet, det er vekst i alle grendene våre. Alle stjørdalinger bor i et samfunn av vekst og fremgang.\",\"Interessant spørsmål. Det vanlige svaret er vel at dugnadsånden er sterkere i grendene, men jeg vil si at det ser vi også i sentrum av Stjørdal. Jeg føler ikke at disse verdiene er under press, men det er også viktig at vi snakker om dette for å være bevisst hva vi mener er viktig.\",\"Gradvis forbedrer og styrker vi den, både på kompetansehaving og profesjonalisering. Når det er sagt, trenger vi en ny brannstasjon på Stjørdal.\",\"Den er god, her vi ligger midt i mellom to sykehus.\",\"Vi har et veldig godt samarbeid med det lokal politiet, De er kompetente, dyktige, tilgjengelige. Men å betjene lufthavnen på Værnes har vært en utfordring. \",Svært god.,\"Vår største suksess er Kimen som ble åpnet 21. august 2015. Det har vært en dundrende suksess, den har forandret Stjørdal og stjørdalingen. Folkeveksten er også en suksess.\",Fiasko at vi ikke lykkes å få lagt politiadministrasjonen i nye Trøndelag hit. Vi hadde også brukt mye tid og ressurser på et bergverksmuseum på Hegra. Det er nå skrinlagt. Men den fiaskoen skal vi snu til suksess.,\"Ikke tommel, opp, to tomler opp!\",,En mystisk og meningsløs beslutning tatt på bakrommenes bakrom er tiltaket Stjørdals-ordfører Ivar Vigdenes sliter mest med når det gjelder dagens regjering.,Vi trives så godt i Stjørdal at det er vanskelig å motivere seg til å reise andre steder.\nverran,Verran,Anders Lindstrøm ,46,Ap,,,3,2,1,1,3,2,1,2,0,0,3,3,,,,\"Ca på stedet hvil. Vi skal slå oss sammen med Steinkjer og er blitt kompensert for for mindre inntekter. Omfanget av oppgaver har økt samtidig. Regionale utviklingsmidler har det blitt mindre av, det er et problem.\",\"Ja. Men den har vi merket de siste 50 år. Vi er halvparten så mange som vi var. Tidligere hadde vi videregående skole. Folk trekker dit de får høyere lønn. Gjennomsnittsinntekten på bygda er lavere, og det påvirker oss. \",\"Ja. Noen satsinger har vært positive, som å øke lærertettheten i småskolen.\",Regionale utviklingsmidler har blitt borte.,\"Det er å legge til rette for å utvikle næringslivet. Arbeidsplasser må skapes lokalt, det er bunnplanken for all velferd. Arbeidsplasser og befolkningsnedgang er vår største utfordring.\",Ja. Så langt. Tjenesteleveransen er veldig god. Men å rekruttere nøkkelstillinger i administrasjonen har vært utfordrende. Da må vi bruke lønn som virkemiddel.,\"Det er to utgangspunkt: Vi må ha gode tjenester, spesielt når det gjelder barn og blivende foreldre - god jordmortjeneste, barnehage, skole. På den andre siden er arbeid til alle helt avgjørende, det skaper trygghet, frihet og derfor må vi ha en aktiv og god næringspolitikk. Vi må være der 24 timer i døgnet og utnytte ressursene som best vi kan. Rammevilkår fra staten er også viktig. \",\"Verran står på høykant. Vi har nærhet til sjø og nærhet til fjell. Vi har voldsomt fin natur og det er nærhet til tjenestene og beslutningstakerne - både rådmann og politikere. Nærhet er viktig. Det verste? Jeg kan ikke komme på noe som er ille, ikke én ting.\",\"Byen har større bredde i fritidstilbud, selv om de kulturelle tilbudene er veldig levende på bygda. I byen får du arbeide med det du ønsker og lett tilgang til svømmehall, kino etc - og så kan du ta bilen og vips så er du på landet. Landet er jo nært i hele Trøndelag. Det verste med byen er kø. \",\"Jeg har vokst opp her. Det er trygt, kjent og jeg har nettverket mitt her. Jeg har aldri mangla noe. \",\"Om fem år heter kommunen min Steinkjer. Da har vi flere arbeidsplasser, vi klarer å utnytte råstoffet bedre, det vil være liv og røre i det gamle gruveområdet. Det vil være godt med kulturelle tilbud, industrien går godt. Vi har fått mye nybygg av hus og boligprisene har steget fordi vi har fått ny vei.\",\"Det er helt sikkert egne verdier rundt omkring. Jeg opplever at fellesskapet er viktig, å være med å utvikle gode nærmiljø. Folk er åpne og inkluderende.\",\"Vi har et interkommunalt samarbeid, vi har brannbil, og treningsanlegg for mannskapet.\",Vi har utstasjonert en ambulanse i samme bygg. Det har ikke vært noen endring i ambulanseberedskapen.,\"Vi hadde en lensmann en dag i uka, det har vi ikke lenger. Men vi har en politikontakt som er veldig flink til å følge opp. Vi ser politiet oftere enn før. Politikontakten bestiller patruljer og driver forebyggende arbeid. Det er god dialog mellom kommune og politi, jeg føler trygghet med deres måte å arbeide på og er opptatt av at det blir mer politi lokalt. Jeg har god tro på at politireformen klarer å levere.\",\"Tilbringertjenesten, der du kan bestille taxi til offentlig kommunikasjon, er veldig positivt. Bussforbindelsen er jo dårlig i helgene, og det liker ungdommen dårlig. Vi har en del flyktninger og de har også slitt med dårlig bussforbindelse. Men nå har de oppdaget tilbringertjenesten, og da er det blitt mye bedre. Når det gjelder infrastruktur har den store saken vært vei til kommunesenteret, Malm. Vi får nå en ny fylkesvei i 2019. Det er veldig viktig, det knytter oss nærmere Steinkjer og Fosen. På bredbånd er det et stykke igjen, særlig i den ytterste grenda, Verranstranda.\",\"Vår største nedtur, ble den største oppturen. Papirmassefabrikken på Follafoss ble nedlagt i 2013, 60 arbeidsfolk sto uten arbeid. Men de ga seg ikke! Næringslivsfolk i Follafoss fikk kontakt med en østerrisk aktør, Mm Karton Follacell. Nå er de oppe og går, og resultatene er bedre enn noensinne. Det ble en gedigen opptur. Også Salmars smoltanlegg til 300 mill, går veldig godt.\",\"Fosdalen Industrier, er under konkursbehandling. 35 mann mister jobben sin, 10 prosent av våre industriarbeidsplasser. Men mye kan oppstå etter en krise, det jobbes aktivt for det.\",\"Vi har rigget oss for framtida, sammen med landbrukskommunen Steinkjer, kan vi som industrikommune lage helhetlige verdikjeder. Kommunesammenslåing og Follafoss gjør at jeg sier tommel opp, det har blitt bedre, selv om kommuneøkonomien er stram.\",,\"Vi ser politiet mer enn før, sier ordføreren etter å ha mistet lensmannen sin.\",Om fem år heter kommunen min Steinkjer og boligprisene har steget fordi vi har fått ny vei.\nvikna,Vikna,Amund Hellesø ,,Ap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,\nnamsskogan,Namsskogan,Stian Brekkvassmo,42,Ap,,,2,2,1,1,3,3,\"1 hall, 2 basseng\",\"1 hall, 2 basseng\",1,0,,,,,,Vi har fått 500 000 mer i rammeoverføringer.,\"Ja, samfunnet sentraliseres jo generelt i alle ledd. Det vil være riktig i noen sammenhenger. Vi hadde en egen ambulanse, nå deler vi med Røyrvik. Politireformen gjør at det blir større avstander ved utrykning. Det er en bil som skal dekke hele Namdalen etter klokka 15.30 på hverdager. \",\"Den nye snøskuter-forskriften har vært bra. Vi er glade i den ville naturen her oppe, og jeg ser at den har hevet livskvaliteten til mange. Mange folk komer seg mer ut, særlig barnefamiliene, de kjører inn på fjellet, griller og går på ski\",Det har blitt et nytt skatteregime for våre vannkraftanlegg. Det gir oss lavere inntekter enn tidligere.,\"Tilflytting og opprettholdelse av tjenestetilbudet. Vi har ligget på rundt 900 innbyggere de siste årene. Problemet er at vi i fellesskap snakker ned distriktene, vi er forpliktet til å si ifra om våre bekymringer, men det kan lett tolkes utad som at vi ikke er optimistiske. Og får ungdommen lyst til å flytte hit da?\",\"Ja, åpenbart. Vi har stor kjærlighet og omsorg for de eldre og bruker mer penger pr.eldre enn de gjør i byen.\",\"Vi må få ta del i verdiskapningen vi bidrar til: Vi avgir vann, vind, skog og mat, og da må vi også få igjen tilstrekkelige ressurser. \",\"Vi er prisgitt naturen. Det er aldri kø til jobb. Frivilligheten, alle er med og forvalter kommunen, vi har felles prosjekter. Det ligger større ære i å drive en butikk i Namsskogan enn i Trondheim. En bedrift med 30 ansatte her, tilvsvarer en bedrift med 4-5000 ansatte i byen. Men det er langt å komme seg til Lerkendal, da kommer vi ikke hjem før utpå natta. Vi er utrolig stolte av RBK, Granåsen og Trondheim! Jeg er ikke sikker på om folk i Trondheim er like stolte av Namsskogan familiepark, hehe. \",\"Vi er totalt avhengige av en sterk by med kompetanse som de har ved NTNU og Sintef. Trondheim er en by som ligger i front i Norge, og den er viktig for hele Trøndelag. Når Adressa lager serien \"\"Fra Rindal til Bindal\"\" føler vi oss inkludert. Det samme når Rita (Ottervik, red.anm.) inviterer til lunsj i Granåsen og våre unger er maskoter hos RBK. Dette er så viktig for oss, mer enn dere aner! Noen ganger føler vi oss ikke spesielt verdsatt. Vi setter pris på så mange ting i byen, jeg skulle ønske jeg følte at det gikk motsatt vei også. Vi trenger hverandre! \",\"Jeg bodde i Trondheim og trivdes veldig godt da jeg fikk tilbud om å lede Namskogan familiepark. Så har jeg røtter her, familie, besteforeldre til barna mine. Femåringen kan slippes på sykkel til butikken. Her kan du også gå inn til ordføreren og si hva du mener, det er vel ikke like enkelt i Trondheim. \",\"Jeg er definitivt optimist! Kommunen ser omtrent ut som i dag. Jeg tror på regjeringsskifte, men hvis det ikke blir det, kan vi få en ny diskusjon om kommunesammenslåing.\",\"Jeg tror verden er bedre på bygda enn i byen. Vi er mer jordnære, mer ydmyke for å få til ting i lag. I storbyen er det bare fokus på merkeklær og materielle goder, i hvert fall en del områder i Oslo. Sjøl har jeg jobbet som eiendomsmegler, aksjemegler og finansiell rådgiver, og jeg vet at man ikke skal skjære alle over en kam. I Trondheim er ikke miljøet som i Oslo. Jeg fikk høre: Du er namdaling og hel ved, deg kan vi stole på. \",\"Vi har et frivillig deltidsbrannvesen, og det fungerer utmerket. \",Vi deler en bil med Røyrvik og det fungerer bra.,,\"Vi har Norges beste bredbåndsdekning! Det er fiber til alle husstander i hele kommunen. ET godt samarbeid mellom kommunen, fylkeskommunen og NTE. Vi har mye hyttefolk, og de får muligheten til å jobbe fra hytta. Mobildekningen er ikke like bra. Flyforbindelsene er for dårlige.\",\"Vi har snudd opp-ned på kommuneøkonomien. Da vi tok over makta var kommunen blant de dårligste på norsk kommunebarometer, i 2015 ble vi kåret til Nord-Trøndelags beste på økonomi. \",Vi skulle gjerne hatt større tilflytting. Vi har ikke lyktse i å få enda flere unge hit.,\"Den er åpenbart bedre. Vi måtte si opp ti prosent av de ansatte i den økonomiske opprydningen, og det var en tung periode. Nå er folk mye mer fornøyd, det er lite misnøye. \",,,Jeg tror verden er bedre på bygda enn i byen"
+   },
+   {
+      "form": 0,
+      "name": "chkHeader",
+      "type": "checkbox",
+      "id": "chkHeader",
+      "elementPos": 10,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "txtRowLimit",
+      "elementPos": 11,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "sep",
+      "type": "radio",
+      "id": "sepAuto",
+      "elementPos": 12,
+      "checked": true,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "sep",
+      "type": "radio",
+      "id": "sepComma",
+      "elementPos": 13,
+      "checked": false,
+      "namePos": 1,
+      "value": ","
+   },
+   {
+      "form": 0,
+      "name": "sep",
+      "type": "radio",
+      "id": "sepSemicolon",
+      "elementPos": 14,
+      "checked": false,
+      "namePos": 2,
+      "value": ";"
+   },
+   {
+      "form": 0,
+      "name": "sep",
+      "type": "radio",
+      "id": "sepColon",
+      "elementPos": 15,
+      "checked": false,
+      "namePos": 3,
+      "value": ":"
+   },
+   {
+      "form": 0,
+      "name": "sep",
+      "type": "radio",
+      "id": "sepPipe",
+      "elementPos": 16,
+      "checked": false,
+      "namePos": 4,
+      "value": "|"
+   },
+   {
+      "form": 0,
+      "name": "sep",
+      "type": "radio",
+      "id": "sepTab",
+      "elementPos": 17,
+      "checked": false,
+      "namePos": 5,
+      "value": "\\t"
+   },
+   {
+      "form": 0,
+      "name": "sep",
+      "type": "radio",
+      "id": "sepCaret",
+      "elementPos": 18,
+      "checked": false,
+      "namePos": 6,
+      "value": "^"
+   },
+   {
+      "form": 0,
+      "name": "sep",
+      "type": "radio",
+      "id": "sepSpace",
+      "elementPos": 19,
+      "checked": false,
+      "namePos": 7,
+      "value": " "
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkReplaceAccents",
+      "elementPos": 20,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkIgnoreDoubleQuote",
+      "elementPos": 21,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkInputQuote",
+      "elementPos": 22,
+      "checked": false,
+      "namePos": 0,
+      "value": "'"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkDecodeLiterals",
+      "elementPos": 23,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "txtCols",
+      "elementPos": 25,
+      "checked": false,
+      "namePos": 0,
+      "value": "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "select-one",
+      "id": "",
+      "elementPos": 27,
+      "namePos": 0,
+      "value": "Query Builder"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkIgnoreCase",
+      "elementPos": 29,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "select-one",
+      "id": "selSortFld1",
+      "elementPos": 30,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "select-one",
+      "id": "selSortType1",
+      "elementPos": 31,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "select-one",
+      "id": "selSortAsc1",
+      "elementPos": 32,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "select-one",
+      "id": "selSortFld2",
+      "elementPos": 33,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "select-one",
+      "id": "selSortType2",
+      "elementPos": 34,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "select-one",
+      "id": "selSortAsc2",
+      "elementPos": 35,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "select-one",
+      "id": "selSortFld3",
+      "elementPos": 36,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "select-one",
+      "id": "selSortType3",
+      "elementPos": 37,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "select-one",
+      "id": "selSortAsc3",
+      "elementPos": 38,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "",
+      "elementPos": 39,
+      "checked": true,
+      "namePos": 0,
+      "value": "on"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "",
+      "elementPos": 40,
+      "checked": true,
+      "namePos": 0,
+      "value": "on"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "",
+      "elementPos": 41,
+      "checked": false,
+      "namePos": 0,
+      "value": "on"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "",
+      "elementPos": 42,
+      "checked": false,
+      "namePos": 0,
+      "value": "on"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "",
+      "elementPos": 43,
+      "checked": false,
+      "namePos": 0,
+      "value": "on"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "",
+      "elementPos": 44,
+      "checked": false,
+      "namePos": 0,
+      "value": "on"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "",
+      "elementPos": 45,
+      "checked": false,
+      "namePos": 0,
+      "value": "on"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "",
+      "elementPos": 46,
+      "checked": true,
+      "namePos": 0,
+      "value": "on"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml1",
+      "elementPos": 47,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr1",
+      "elementPos": 48,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper1",
+      "elementPos": 49,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower1",
+      "elementPos": 50,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper1",
+      "elementPos": 51,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct1",
+      "elementPos": 52,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch1",
+      "elementPos": 53,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull1",
+      "elementPos": 54,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals1",
+      "elementPos": 55,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml2",
+      "elementPos": 56,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr2",
+      "elementPos": 57,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper2",
+      "elementPos": 58,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower2",
+      "elementPos": 59,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper2",
+      "elementPos": 60,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct2",
+      "elementPos": 61,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch2",
+      "elementPos": 62,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull2",
+      "elementPos": 63,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals2",
+      "elementPos": 64,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml3",
+      "elementPos": 65,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr3",
+      "elementPos": 66,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper3",
+      "elementPos": 67,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower3",
+      "elementPos": 68,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper3",
+      "elementPos": 69,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct3",
+      "elementPos": 70,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch3",
+      "elementPos": 71,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull3",
+      "elementPos": 72,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals3",
+      "elementPos": 73,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml4",
+      "elementPos": 74,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr4",
+      "elementPos": 75,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper4",
+      "elementPos": 76,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower4",
+      "elementPos": 77,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper4",
+      "elementPos": 78,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct4",
+      "elementPos": 79,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch4",
+      "elementPos": 80,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull4",
+      "elementPos": 81,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals4",
+      "elementPos": 82,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml5",
+      "elementPos": 83,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr5",
+      "elementPos": 84,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper5",
+      "elementPos": 85,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower5",
+      "elementPos": 86,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper5",
+      "elementPos": 87,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct5",
+      "elementPos": 88,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch5",
+      "elementPos": 89,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull5",
+      "elementPos": 90,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals5",
+      "elementPos": 91,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml6",
+      "elementPos": 92,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr6",
+      "elementPos": 93,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper6",
+      "elementPos": 94,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower6",
+      "elementPos": 95,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper6",
+      "elementPos": 96,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct6",
+      "elementPos": 97,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch6",
+      "elementPos": 98,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull6",
+      "elementPos": 99,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals6",
+      "elementPos": 100,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml7",
+      "elementPos": 101,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr7",
+      "elementPos": 102,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper7",
+      "elementPos": 103,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower7",
+      "elementPos": 104,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper7",
+      "elementPos": 105,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct7",
+      "elementPos": 106,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch7",
+      "elementPos": 107,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull7",
+      "elementPos": 108,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals7",
+      "elementPos": 109,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml8",
+      "elementPos": 110,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr8",
+      "elementPos": 111,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper8",
+      "elementPos": 112,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower8",
+      "elementPos": 113,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper8",
+      "elementPos": 114,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct8",
+      "elementPos": 115,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch8",
+      "elementPos": 116,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull8",
+      "elementPos": 117,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals8",
+      "elementPos": 118,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml9",
+      "elementPos": 119,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr9",
+      "elementPos": 120,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper9",
+      "elementPos": 121,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower9",
+      "elementPos": 122,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper9",
+      "elementPos": 123,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct9",
+      "elementPos": 124,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch9",
+      "elementPos": 125,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull9",
+      "elementPos": 126,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals9",
+      "elementPos": 127,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml10",
+      "elementPos": 128,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr10",
+      "elementPos": 129,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper10",
+      "elementPos": 130,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower10",
+      "elementPos": 131,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper10",
+      "elementPos": 132,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct10",
+      "elementPos": 133,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch10",
+      "elementPos": 134,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull10",
+      "elementPos": 135,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals10",
+      "elementPos": 136,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml11",
+      "elementPos": 137,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr11",
+      "elementPos": 138,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper11",
+      "elementPos": 139,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower11",
+      "elementPos": 140,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper11",
+      "elementPos": 141,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct11",
+      "elementPos": 142,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch11",
+      "elementPos": 143,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull11",
+      "elementPos": 144,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals11",
+      "elementPos": 145,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml12",
+      "elementPos": 146,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr12",
+      "elementPos": 147,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper12",
+      "elementPos": 148,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower12",
+      "elementPos": 149,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper12",
+      "elementPos": 150,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct12",
+      "elementPos": 151,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch12",
+      "elementPos": 152,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull12",
+      "elementPos": 153,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals12",
+      "elementPos": 154,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml13",
+      "elementPos": 155,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr13",
+      "elementPos": 156,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper13",
+      "elementPos": 157,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower13",
+      "elementPos": 158,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper13",
+      "elementPos": 159,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct13",
+      "elementPos": 160,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch13",
+      "elementPos": 161,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull13",
+      "elementPos": 162,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals13",
+      "elementPos": 163,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml14",
+      "elementPos": 164,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr14",
+      "elementPos": 165,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper14",
+      "elementPos": 166,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower14",
+      "elementPos": 167,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper14",
+      "elementPos": 168,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct14",
+      "elementPos": 169,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch14",
+      "elementPos": 170,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull14",
+      "elementPos": 171,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals14",
+      "elementPos": 172,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml15",
+      "elementPos": 173,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr15",
+      "elementPos": 174,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper15",
+      "elementPos": 175,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower15",
+      "elementPos": 176,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper15",
+      "elementPos": 177,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct15",
+      "elementPos": 178,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch15",
+      "elementPos": 179,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull15",
+      "elementPos": 180,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals15",
+      "elementPos": 181,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml16",
+      "elementPos": 182,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr16",
+      "elementPos": 183,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper16",
+      "elementPos": 184,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower16",
+      "elementPos": 185,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper16",
+      "elementPos": 186,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct16",
+      "elementPos": 187,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch16",
+      "elementPos": 188,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull16",
+      "elementPos": 189,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals16",
+      "elementPos": 190,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml17",
+      "elementPos": 191,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr17",
+      "elementPos": 192,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper17",
+      "elementPos": 193,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower17",
+      "elementPos": 194,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper17",
+      "elementPos": 195,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct17",
+      "elementPos": 196,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch17",
+      "elementPos": 197,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull17",
+      "elementPos": 198,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals17",
+      "elementPos": 199,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml18",
+      "elementPos": 200,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr18",
+      "elementPos": 201,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper18",
+      "elementPos": 202,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower18",
+      "elementPos": 203,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper18",
+      "elementPos": 204,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct18",
+      "elementPos": 205,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch18",
+      "elementPos": 206,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull18",
+      "elementPos": 207,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals18",
+      "elementPos": 208,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml19",
+      "elementPos": 209,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr19",
+      "elementPos": 210,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper19",
+      "elementPos": 211,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower19",
+      "elementPos": 212,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper19",
+      "elementPos": 213,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct19",
+      "elementPos": 214,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch19",
+      "elementPos": 215,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull19",
+      "elementPos": 216,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals19",
+      "elementPos": 217,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml20",
+      "elementPos": 218,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr20",
+      "elementPos": 219,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper20",
+      "elementPos": 220,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower20",
+      "elementPos": 221,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper20",
+      "elementPos": 222,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct20",
+      "elementPos": 223,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch20",
+      "elementPos": 224,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull20",
+      "elementPos": 225,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals20",
+      "elementPos": 226,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml21",
+      "elementPos": 227,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr21",
+      "elementPos": 228,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper21",
+      "elementPos": 229,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower21",
+      "elementPos": 230,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper21",
+      "elementPos": 231,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct21",
+      "elementPos": 232,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch21",
+      "elementPos": 233,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull21",
+      "elementPos": 234,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals21",
+      "elementPos": 235,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml22",
+      "elementPos": 236,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr22",
+      "elementPos": 237,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper22",
+      "elementPos": 238,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower22",
+      "elementPos": 239,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper22",
+      "elementPos": 240,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct22",
+      "elementPos": 241,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch22",
+      "elementPos": 242,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull22",
+      "elementPos": 243,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals22",
+      "elementPos": 244,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml23",
+      "elementPos": 245,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr23",
+      "elementPos": 246,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper23",
+      "elementPos": 247,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower23",
+      "elementPos": 248,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper23",
+      "elementPos": 249,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct23",
+      "elementPos": 250,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch23",
+      "elementPos": 251,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull23",
+      "elementPos": 252,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals23",
+      "elementPos": 253,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml24",
+      "elementPos": 254,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr24",
+      "elementPos": 255,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper24",
+      "elementPos": 256,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower24",
+      "elementPos": 257,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper24",
+      "elementPos": 258,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct24",
+      "elementPos": 259,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch24",
+      "elementPos": 260,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull24",
+      "elementPos": 261,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals24",
+      "elementPos": 262,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml25",
+      "elementPos": 263,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr25",
+      "elementPos": 264,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper25",
+      "elementPos": 265,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower25",
+      "elementPos": 266,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper25",
+      "elementPos": 267,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct25",
+      "elementPos": 268,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch25",
+      "elementPos": 269,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull25",
+      "elementPos": 270,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals25",
+      "elementPos": 271,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml26",
+      "elementPos": 272,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr26",
+      "elementPos": 273,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper26",
+      "elementPos": 274,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower26",
+      "elementPos": 275,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper26",
+      "elementPos": 276,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct26",
+      "elementPos": 277,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch26",
+      "elementPos": 278,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull26",
+      "elementPos": 279,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals26",
+      "elementPos": 280,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml27",
+      "elementPos": 281,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr27",
+      "elementPos": 282,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper27",
+      "elementPos": 283,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower27",
+      "elementPos": 284,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper27",
+      "elementPos": 285,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct27",
+      "elementPos": 286,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch27",
+      "elementPos": 287,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull27",
+      "elementPos": 288,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals27",
+      "elementPos": 289,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml28",
+      "elementPos": 290,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr28",
+      "elementPos": 291,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper28",
+      "elementPos": 292,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower28",
+      "elementPos": 293,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper28",
+      "elementPos": 294,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct28",
+      "elementPos": 295,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch28",
+      "elementPos": 296,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull28",
+      "elementPos": 297,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals28",
+      "elementPos": 298,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml29",
+      "elementPos": 299,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr29",
+      "elementPos": 300,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper29",
+      "elementPos": 301,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower29",
+      "elementPos": 302,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper29",
+      "elementPos": 303,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct29",
+      "elementPos": 304,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch29",
+      "elementPos": 305,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull29",
+      "elementPos": 306,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals29",
+      "elementPos": 307,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml30",
+      "elementPos": 308,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr30",
+      "elementPos": 309,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper30",
+      "elementPos": 310,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower30",
+      "elementPos": 311,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper30",
+      "elementPos": 312,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct30",
+      "elementPos": 313,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch30",
+      "elementPos": 314,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull30",
+      "elementPos": 315,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals30",
+      "elementPos": 316,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml31",
+      "elementPos": 317,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr31",
+      "elementPos": 318,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper31",
+      "elementPos": 319,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower31",
+      "elementPos": 320,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper31",
+      "elementPos": 321,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct31",
+      "elementPos": 322,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch31",
+      "elementPos": 323,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull31",
+      "elementPos": 324,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals31",
+      "elementPos": 325,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml32",
+      "elementPos": 326,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr32",
+      "elementPos": 327,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper32",
+      "elementPos": 328,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower32",
+      "elementPos": 329,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper32",
+      "elementPos": 330,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct32",
+      "elementPos": 331,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch32",
+      "elementPos": 332,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull32",
+      "elementPos": 333,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals32",
+      "elementPos": 334,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml33",
+      "elementPos": 335,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr33",
+      "elementPos": 336,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper33",
+      "elementPos": 337,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower33",
+      "elementPos": 338,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper33",
+      "elementPos": 339,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct33",
+      "elementPos": 340,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch33",
+      "elementPos": 341,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull33",
+      "elementPos": 342,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals33",
+      "elementPos": 343,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml34",
+      "elementPos": 344,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr34",
+      "elementPos": 345,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper34",
+      "elementPos": 346,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower34",
+      "elementPos": 347,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper34",
+      "elementPos": 348,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct34",
+      "elementPos": 349,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch34",
+      "elementPos": 350,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull34",
+      "elementPos": 351,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals34",
+      "elementPos": 352,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml35",
+      "elementPos": 353,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr35",
+      "elementPos": 354,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper35",
+      "elementPos": 355,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower35",
+      "elementPos": 356,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper35",
+      "elementPos": 357,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct35",
+      "elementPos": 358,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch35",
+      "elementPos": 359,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull35",
+      "elementPos": 360,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals35",
+      "elementPos": 361,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml36",
+      "elementPos": 362,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr36",
+      "elementPos": 363,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper36",
+      "elementPos": 364,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower36",
+      "elementPos": 365,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper36",
+      "elementPos": 366,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct36",
+      "elementPos": 367,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch36",
+      "elementPos": 368,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull36",
+      "elementPos": 369,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals36",
+      "elementPos": 370,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml37",
+      "elementPos": 371,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr37",
+      "elementPos": 372,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper37",
+      "elementPos": 373,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower37",
+      "elementPos": 374,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper37",
+      "elementPos": 375,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct37",
+      "elementPos": 376,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch37",
+      "elementPos": 377,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull37",
+      "elementPos": 378,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals37",
+      "elementPos": 379,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml38",
+      "elementPos": 380,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr38",
+      "elementPos": 381,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper38",
+      "elementPos": 382,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower38",
+      "elementPos": 383,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper38",
+      "elementPos": 384,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct38",
+      "elementPos": 385,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch38",
+      "elementPos": 386,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull38",
+      "elementPos": 387,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals38",
+      "elementPos": 388,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml39",
+      "elementPos": 389,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr39",
+      "elementPos": 390,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper39",
+      "elementPos": 391,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower39",
+      "elementPos": 392,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper39",
+      "elementPos": 393,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct39",
+      "elementPos": 394,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch39",
+      "elementPos": 395,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull39",
+      "elementPos": 396,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals39",
+      "elementPos": 397,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml40",
+      "elementPos": 398,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr40",
+      "elementPos": 399,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper40",
+      "elementPos": 400,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower40",
+      "elementPos": 401,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper40",
+      "elementPos": 402,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct40",
+      "elementPos": 403,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch40",
+      "elementPos": 404,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull40",
+      "elementPos": 405,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals40",
+      "elementPos": 406,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml41",
+      "elementPos": 407,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr41",
+      "elementPos": 408,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper41",
+      "elementPos": 409,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower41",
+      "elementPos": 410,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper41",
+      "elementPos": 411,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct41",
+      "elementPos": 412,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch41",
+      "elementPos": 413,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull41",
+      "elementPos": 414,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals41",
+      "elementPos": 415,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml42",
+      "elementPos": 416,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr42",
+      "elementPos": 417,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper42",
+      "elementPos": 418,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower42",
+      "elementPos": 419,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper42",
+      "elementPos": 420,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct42",
+      "elementPos": 421,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch42",
+      "elementPos": 422,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull42",
+      "elementPos": 423,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals42",
+      "elementPos": 424,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml43",
+      "elementPos": 425,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr43",
+      "elementPos": 426,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper43",
+      "elementPos": 427,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower43",
+      "elementPos": 428,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper43",
+      "elementPos": 429,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct43",
+      "elementPos": 430,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch43",
+      "elementPos": 431,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull43",
+      "elementPos": 432,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals43",
+      "elementPos": 433,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml44",
+      "elementPos": 434,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr44",
+      "elementPos": 435,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper44",
+      "elementPos": 436,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower44",
+      "elementPos": 437,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper44",
+      "elementPos": 438,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct44",
+      "elementPos": 439,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch44",
+      "elementPos": 440,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chknull44",
+      "elementPos": 441,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals44",
+      "elementPos": 442,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkCsvQuotes",
+      "elementPos": 443,
+      "checked": false,
+      "namePos": 0,
+      "value": "on"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "txtKeyNum",
+      "elementPos": 444,
+      "checked": false,
+      "namePos": 0,
+      "value": "1"
+   },
+   {
+      "form": 0,
+      "name": "chkFldData",
+      "type": "checkbox",
+      "id": "chkFldData",
+      "elementPos": 445,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "txtFieldName",
+      "elementPos": 446,
+      "checked": false,
+      "namePos": 0,
+      "value": "fields"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "txtDataName",
+      "elementPos": 447,
+      "checked": false,
+      "namePos": 0,
+      "value": "data"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkOverwrite",
+      "elementPos": 448,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "chkNullJson",
+      "type": "checkbox",
+      "id": "chkNullJson",
+      "elementPos": 449,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "chkSkipEmpty",
+      "type": "checkbox",
+      "id": "chkSkipEmpty",
+      "elementPos": 450,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "chkTryToObject",
+      "type": "checkbox",
+      "id": "chkTryToObject",
+      "elementPos": 451,
+      "checked": true,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "chkMongoDbMode",
+      "type": "checkbox",
+      "id": "chkMongoDbMode",
+      "elementPos": 452,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "txtHeader",
+      "elementPos": 454,
+      "checked": false,
+      "namePos": 0,
+      "value": "{ {br}"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "textarea",
+      "id": "txtTemplate",
+      "elementPos": 455,
+      "namePos": 0,
+      "value": "  \"{f1}\" : {\n     \"{h1}\":\"{f1}\",\n     \"{h2}\":\"{f2}\",\n     \"{h3}\":\"{f3}\",\n     \"{h4}\":\"{f4}\",\n     \"{h5}\":\"{f5}\",\n     \"{h6}\":\"{f6}\",\n     \"{h7}\":\"{f7}\",\n     \"{h8}\":\"{f8}\",\n     \"{h9}\":\"{f9}\",\n     \"{h10}\":\"{f10}\",\n     \"{h11}\":\"{f11}\",\n     \"{h12}\":\"{f12}\",\n     \"{h13}\":\"{f13}\",\n     \"{h14}\":\"{f14}\",\n     \"{h15}\":\"{f15}\",\n     \"{h16}\":\"{f16}\",\n     \"{h17}\":\"{f17}\",\n     \"{h18}\":\"{f18}\",\n     \"{h19}\":\"{f19}\",\n     \"{h20}\":\"{f20}\",\n     \"{h21}\":\"{f21}\",\n     \"{h22}\":\"{f22}\",\n     \"{h23}\":\"{f23}\",\n     \"{h24}\":\"{f24}\",\n     \"{h25}\":\"{f25}\",\n     \"{h26}\":\"{f26}\",\n     \"{h27}\":\"{f27}\",\n     \"{h28}\":\"{f28}\",\n     \"{h29}\":\"{f29}\",\n     \"{h30}\":\"{f30}\",\n     \"{h31}\":\"{f31}\",\n     \"{h32}\":\"{f32}\",\n     \"{h33}\":\"{f33}\",\n     \"{h34}\":\"{f34}\",\n     \"{h35}\":\"{f35}\",\n     \"{h36}\":\"{f36}\",\n     \"{h37}\":\"{f37}\",\n     \"{h38}\":\"{f38}\",\n     \"{h39}\":\"{f39}\",\n     \"{h40}\":\"{f40}\",\n     \"{h41}\":\"{f41}\",\n     \"{h42}\":\"{f42}\"\n}"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "txtFooter",
+      "elementPos": 456,
+      "checked": false,
+      "namePos": 0,
+      "value": "{br} }"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fn",
+      "elementPos": 463,
+      "checked": false,
+      "namePos": 0,
+      "value": "convertcsv"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "select-one",
+      "id": "eol",
+      "elementPos": 465,
+      "namePos": 0,
+      "value": ""
+   }
+]
