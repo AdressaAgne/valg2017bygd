@@ -1,21 +1,26 @@
 .mode-list {
 	background-color: color(white);
-	width: 100%;
-	& .list-search{
+	overflow-y: hidden;
+
+	& .list-search {
 		width: 100%;
-		height: u(2);
+		height: u(3);
+		font-size: u(1);
 		padding: u(1);
 		outline: none;
 		border: none;
 		appearance: none;
 		@include list-item();
+		@include breakpoint(mobile){
+			font-size: u(1.5);
+		}
 	}
 
 	> ul {
-		height: calc(100% - 32px);
-		overflow-y: scroll;
-		> li {
+		height: 100%;
+		overflow: scroll;
 
+		> li {
 			a {
 				display: flex;
 				cursor: pointer;
@@ -27,7 +32,8 @@
 				@include list-item(open);
 				background-color: color(primary);
 				color: color(white);
-				.county{
+
+				.county {
 					color: color(background);
 				}
 			}
@@ -43,10 +49,11 @@
 					height: u(2.5);
 					border-radius: 50%;
 				}
+
 				&::after {
 					content: "";
 					display: block;
-					background-image: url(../gfx/logos.png);
+					background-image: url("../gfx/logos.png");
 					background-size: auto 100%;
 					width: u(1.5);
 					height: u(1.5);
@@ -54,11 +61,18 @@
 					position: absolute;
 					top: 0;
 					right: u(-1);
-
-					@at-root [data-party="ap"] figure::after { background-position: 0 0; }
-					@at-root [data-party="h"] figure::after { background-position: percentage(1/3) 0; }
-					@at-root [data-party="bygdeliste"] figure::after { background-position: percentage(2/3) 0; }
-					@at-root [data-party="sp"] figure::after { background-position: percentage(3/3) 0; }
+					@at-root [data-party="ap"] figure::after {
+						background-position: 0 0;
+					}
+					@at-root [data-party="h"] figure::after {
+						background-position: percentage(1/3) 0;
+					}
+					@at-root [data-party="bygdeliste"] figure::after {
+						background-position: percentage(2/3) 0;
+					}
+					@at-root [data-party="sp"] figure::after {
+						background-position: percentage(3/3) 0;
+					}
 				}
 				margin-right: u(1.75);
 			}

@@ -2,40 +2,86 @@
 @import "bandaid";
 @import "patternlib";
 @import "map";
-@import "list";
-// Sass file
+@import "list"; // Sass file
 
-html, body {
+body,
+html {
 	width: 100%;
 	height: 100%;
 	overflow: hidden;
 }
 
 .kommune2017app {
-	height: inherit;
-	width: inherit;
+	height: 100%;
+	width: 100%;
 	overflow: hidden;
 
-	@include breakpoint(tablet) {
-		// For the lulz. Skal fjernes,
+	.navigation {
+		width: 100%;
+		height: u(3);
+		background-color: color(primary);
 		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		width: 980px;
-		height: 600px;
-		display: flex;
+		z-index: 9999;
+		top: 0px;
+		left: 0px;
+		span {
+			color: color(white);
+			width: 50%;
+			display: block;
+			float: left;
+			text-align: center;
+			line-height: u(3);
+			cursor: pointer;
+
+			&:hover {
+				background-color: lighten(color(primary), 5%);
+			}
+
+			&:first-of-type {
+				border-right: 1px solid color(white);
+			}
+		}
+		@include breakpoint(tablet) {
+			display: none;
+		}
 	}
 
-	> .mode-info, .mode-map, .mode-list {
+	.container {
 		width: 100%;
 		height: 100%;
-		position: relative;
-		overflow: hidden;
+	}
+	@include breakpoint(tablet) {
+		.mode-list,
+		.mode-map {
+			height: 100%;
+			float: left;
+		}
 
-		@include breakpoint(tablet) {
-			&.mode-map { width: 60%; }
-			&.mode-list { width: 40%; }
+		.mode-map {
+			width: 60%;
+		}
+
+		.mode-list {
+			width: 40%;
+		}
+	}
+	@include breakpoint(mobile) {
+		.mode-map, .mode-list {
+			height: 100%;
+			width: 100%;
+			position: absolute;
+			top: u(3) !important;
+			left: 0px;
+
+			&.hide {
+				display: none;
+			}
+			&.show{
+				display: block;
+			}
+		}
+		.mode-list{
+			display: none;
 		}
 	}
 }

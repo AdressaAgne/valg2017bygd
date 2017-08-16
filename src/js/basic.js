@@ -16,7 +16,7 @@ window.onresize = function(e) {
 function get_permalink() {
     let url = location.href;
     if (url.match(/(.*)(\?k=([a-z]+))/)) {
-        return url.replace(/(.*)(\?k=([a-z]*))/g, "$3");
+        return url.replace(/(.*)(\#kommune=([a-z]*))/g, "$3");
     }
     return false;
 }
