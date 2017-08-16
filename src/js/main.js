@@ -50,23 +50,23 @@ $.getJSON('data/kommuner.geojson').done(function(kommuner) {
                         icon: faceIcon,
                         data: info,
                     }).on('click', function() {
-                        log('makerClick');
                         showInfo.bind(info)();
                     })
                     layer.on('click', function(e) {
-                        log('LayerClicked');
                         showInfo.bind(info)();
                     });
                     marker.addTo(map);
                     info.marker = marker;
                     info.layer = layer;
 
+                    var parti_visual = info.data.Parti.charAt(0).toUpperCase() + info.data.Parti.slice(1);
+                    info.pv = parti_visual;
                     $(list).prepend(`<li data-id="` + faceName + `" data-party="` + info.data.Parti.toLowerCase() + `" data-status="better" data-kommune="` + info.data.Kommune.toLowerCase() + `" data-head="` + info.data.Ordfører.toLowerCase().replace(/\s/g, '') + `">
 	                    <a>
 	                        <figure>
 	                        </figure>
 	                        <ul>
-	                            <li class="name">` + info.data.Ordfører + `</li>
+	                            <li class="name">` + info.data.Ordfører + ` (`+parti_visual+`), `+info.data.Alder+`år</li>
 	                            <li class="county">` + info.data.Kommune + `</li>
 	                        </ul>
 	                    </a>
@@ -93,7 +93,6 @@ $.getJSON('data/kommuner.geojson').done(function(kommuner) {
 
         var permalink = get_permalink();
         if (permalink !== false) {
-            log(permalink);
             $('.list-search').val(permalink);
             $('[data-kommune=' + permalink + ']').click();
         }
@@ -106,30 +105,41 @@ $.getJSON('data/kommuner.geojson').done(function(kommuner) {
 // Functions
 var infoTab = $('.mode-map-info');
 var lastLayer = null;
+
+// Do not show
 var blacklist = [
     'ID',
     'Kommune',
     'Parti',
     'Tittel',
     'Ordfører',
+    'Alder',
+    'ingress',
+    'Sitat',
     "Antall skoler 2013",
-    "Antall skoler 2017",
     "Antall eldrehjem/omsorgssenter 2013",
-    "Antall eldrehjem/omsorgssenter 2017",
     "Antall barnehager 2013",
-    "Antall barnehager 2017",
     "Antall idrettshaller og svømmehaller 2013",
-    "Antall idrettshaller og svømmehaller i 2017",
     "Antall polutsalg 2013",
-    "Antall polutsalg 2017",
     "Antall dagligvarebutikker i 2013",
-    "Antall dagligvarebutikker i 2017",
     "Antall statlige arbeidsplasser 2013",
-    "Antall statlige arbeidsplasser 2017",
-    "Antall nedlagte bruk siste..(SSB)",
     "Innbyggerantall 2013",
-    "Innbyggerantall 2017",
+    ,
 ];
+
+// Show in separat list
+var infolist = [
+    "Innbyggerantall 2017",
+    "Antall nedlagte bruk siste..(SSB)",
+    "Antall statlige arbeidsplasser 2017",
+    "Antall dagligvarebutikker i 2017",
+    "Antall polutsalg 2017",
+    "Antall idrettshaller og svømmehaller i 2017",
+    "Antall barnehager 2017",
+    "Antall eldrehjem/omsorgssenter 2017",
+    "Antall skoler 2017",
+];
+
 function showInfo() {
     // remove all current active elements
     hide(false);
@@ -144,26 +154,33 @@ function showInfo() {
         lastLayer = geoMap.getLayer(this.faceName);
     }
 
-
-    // Add text to popup
-    $('.mode-map-info__bar--title').text(this.data.Kommune + ' - ' + this.data.Ordfører);
-
-    $('.mode-map-info__image').addClass('icon-face-' + this.faceName);
-    $('.mode-map-info--ingress').text('Ingress');
-    var url = 'http://www.adressa.no/nyheter/sortrondelag/2017/08/11/Skal-avh%C3%B8re-ansatte-og-ledelsen-ved-Ler%C3%B8y-Midt-15139978.ece';
-    var ogimage = '123456789';
-    $('.mode-map-info--ingress').prepend('<div class="fb-share-button" data-href="'+url+'?k='+this.data.ID+'&ogimage='+ogimage+'" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u='+url+'?'+this.data.ID+'%26ogimage%3D'+ogimage+'&amp;src=sdkpreparse">Del på Facebook</a></div>');
     $(infoTab).css('transform', '');
 
+    // Add text to popup
+    $('.mode-map-info__bar--title').text(this.data.Ordfører + ' ('+this.pv+'), ' + this.data.Alder + 'år');
+
+    var url = 'http://www.adressa.no/nyheter/sortrondelag/2017/08/11/Skal-avh%C3%B8re-ansatte-og-ledelsen-ved-Ler%C3%B8y-Midt-15139978.ece';
+    var ogimage = '123456789';
+    url += '?imageid='+ogimage+'#kommune='+this.data.ID;
+    $('.mode-map-info--ingress').html('<div class="fb-share-button" data-href="'+url+'" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u='+url+'?'+this.data.ID+'%26ogimage%3D'+ogimage+'&amp;src=sdkpreparse">Del på Facebook</a></div>');
+
+    // Intervju
     $('.mode-map--desc').html('<h1>'+this.data['Tittel']+'</h1>');
-    log(this.data);
     for (var question in this.data) {
-        if(blacklist.indexOf(question) > -1) continue;
+        if(blacklist.indexOf(question) > -1 || infolist.indexOf(question) > -1) continue;
         var answer = this.data[question];
         $('.mode-map--desc').append('<h3>'+question+'</h3>');
         $('.mode-map--desc').append('<p>'+answer+'</p>');
-        $('.mode-map--desc').append('<br />');
     }
+
+    // Fakta
+    $('.mode-map--desc').append('<ul>');
+    for (var question in this.data) {
+        if(infolist.indexOf(question) < 0) continue;
+        var answer = this.data[question];
+        $('.mode-map--desc').append('<li><strong>'+question+':</strong> '+answer+'</li>');
+    }
+    $('.mode-map--desc').append('</ul>');
 
     // Set current active map polygon
     geoMap.getLayer(this.faceName).setStyle({
@@ -178,17 +195,15 @@ function showInfo() {
         map.flyTo([this.lng, this.lat]);
         $(infoTab).slideDown(200);
         $('.mode-list ul').animate({
-            scrollTop: $('.mode-list ul').scrollTop() + $(this.elm).position().top - 32,
+            scrollTop: $('.mode-list ul').scrollTop() + $(this.elm).position().top - 48,
         }, 200);
         $('.mode-map-info__bar').hide();
         return;
     }
-    log('Mobile View');
     $('.mode-map-info__bar').show();
     // on mobile view:
     // set the info tab as active, for mobile slide
     $(infoTab).show().addClass('active');
-    log($(infoTab))
     // for touch-drag back
     backData = this;
 }
@@ -287,7 +302,6 @@ $('.mode-map-info').on('touchmove', function(e) {
 
 
 $('#switch_mode-list').click(function() {
-    log(this);
     $('.mode-map').addClass('hide');
     $('.mode-list').addClass('show');
 });
