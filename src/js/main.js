@@ -2,7 +2,7 @@ const parti = {
     "ap": '#E4002B',
     "h": '#004E8B',
     "sp": '#69BE28',
-    "bygdeliste": 'gray',
+    "felleslista-for-bygdeutvikling": 'gray',
 }
 
 
@@ -36,7 +36,7 @@ $.getJSON('data/kommuner.geojson').done(function(kommuner) {
                     var info = {};
                     info.data = data[faceName];
                     var faceIcon = L.divIcon({
-                        className: 'icon-face-' + faceName + ' parti parti-' + info.data.Parti.toLowerCase(),
+                        className: 'icon-face-' + faceName + ' parti parti-' + info.data.Parti.toLowerCase().replace(/\s/g, '-'),
                         iconSize: 32
                     });
                     var center = L.latLngBounds(f.geometry.coordinates).getCenter();
@@ -61,12 +61,12 @@ $.getJSON('data/kommuner.geojson').done(function(kommuner) {
 
                     var parti_visual = info.data.Parti.charAt(0).toUpperCase() + info.data.Parti.slice(1);
                     info.pv = parti_visual;
-                    $(list).prepend(`<li data-id="` + faceName + `" data-party="` + info.data.Parti.toLowerCase() + `" data-status="better" data-kommune="` + info.data.Kommune.toLowerCase() + `" data-head="` + info.data.Ordfører.toLowerCase().replace(/\s/g, '') + `">
+                    $(list).prepend(`<li data-id="` + faceName + `" data-party="` + info.data.Parti.toLowerCase().replace(/\s/g, '-') + `" data-status="better" data-kommune="` + info.data.Kommune.toLowerCase() + `" data-head="` + info.data.Ordfører.toLowerCase().replace(/\s/g, '') + `">
 	                    <a>
-	                        <figure>
+	                        <figure class="icon-face-` + faceName + `">
 	                        </figure>
 	                        <ul>
-	                            <li class="name">` + info.data.Ordfører + ` (` + parti_visual + `), ` + info.data.Alder + `år</li>
+	                            <li class="name">` + info.data.Ordfører + ` (` + parti_visual + `), ` + info.data.Alder + ` år</li>
 	                            <li class="county">` + info.data.Kommune + `</li>
 	                        </ul>
 	                    </a>
@@ -83,7 +83,7 @@ $.getJSON('data/kommuner.geojson').done(function(kommuner) {
                     });
 
                     layer.setStyle({
-                        color: parti[info.data.Parti.toLowerCase()],
+                        color: parti[info.data.Parti.toLowerCase().replace(/\s/, '-')],
                         weight: 1,
                         fillOpacity: .1
                     });
@@ -116,80 +116,46 @@ var blacklist = [
     'Alder',
     'ingress',
     'Sitat',
-    "1",
-    "2",
-    "3",
-    "5",
-    "7",
-    "9",
-    "11",
-    "13",
-    "15",
-    "17",
+    "Innbyggerantall 2013",
+    "Innbyggerantall 2017",
+    "Rank",
+    "Antall skoler 2013",
+    "Antall eldrehjem/omsorgssenter 2013",
+    "Antall barnehager 2013",
+    "Antall idrettshaller og svømmehaller 2013",
+    "Antall polutsalg 2013",
+    "Antall dagligvarebutikker i 2013",
+    "Antall statlige arbeidsplasser 2013",
+    "imageid",
 ];
 
 // Show in separat list
 var infolist = [
-    "4", "6", "8", "10", "12", "14", "16",
+    "Endring stalige overføringer",
+    "Antall skoler 2017",
+    "Antall eldrehjem/omsorgssenter 2017",
+    "Antall barnehager 2017",
+    "Antall idrettshaller og svømmehaller i 2017",
+    "Antall polutsalg 2017",
+    "Antall dagligvarebutikker i 2017",
+    "Antall nedlagte bruk siste..(SSB)",
 ];
 
-var questions = {
-    "1": "Innbyggerantall 2013",
-    "2": "Innbyggerantall 2017",
-    "3": "Antall skoler 2013",
-    "4": "Antall skoler 2017",
-    "5": "Antall eldrehjem/omsorgssenter 2013",
-    "6": "Antall eldrehjem/omsorgssenter 2017",
-    "7": "Antall barnehager 2013",
-    "8": "Antall barnehager 2017",
-    "9": "Antall idrettshaller og svømmehaller 2013",
-    "10": "Antall idrettshaller og svømmehaller i 2017",
-    "11": "Antall polutsalg 2013",
-    "12": "Antall polutsalg 2017",
-    "13": "Antall dagligvarebutikker i 2013",
-    "14": "Antall dagligvarebutikker i 2017",
-    "15": "Antall statlige arbeidsplasser 2013",
-    "16": "Endring i stalige overføringer",
-    "17": "Antall nedlagte bruk siste..(SSB)",
-
-    "18": "Har det skjedd en endring i de statlige overføringene til din kommune siste fire år? Hvordan i så fall?",
-    "19": "Opplever du at din kommune er utsatt for en sentralisering? Hvordan i så fall?",
-    "20": "Har regjeringen gjennomført tiltak som har gitt positiv effekt for din kommune? Hva i så fall?",
-    "21": "Har regjeringen gjennomført tiltak som har gitt negativ effekt for din kommune? Hvilke i så fall?",
-    "22": "Hva er din kommunes største utfordring?",
-    "23": "Klarer dere å levere de tjenestene innbyggerne skal ha?",
-    "24": "Hva mener du skal til for å opprettholde levekraftige distrikter?",
-    "25": "Hva er det beste og verste med bygda/distriktet?",
-    "26": "Hva er det beste og verste med byen?",
-    "27": "Hvorfor bor du på bygda/distriktet?",
-    "28": "Hvordan ser kommunen din ut om fem år? Er du mest optimistisk eller mest pessimistisk?",
-    "29": "Fins det egne verdier på bygda/distriktet?",
-    "30": "Hvordan er brannberedskapen i din kommune? Endring?",
-    "31": "Hvordan er ambulanseberedskapen i din kommune?",
-    "32": "Hvordan er politiberedskapen?",
-    "33": "Hvordan er den offentlige kommunikasjonen og infrastrukturen? Endring?",
-    "34": "Fortell om din kommunes største suksess siste fire år?",
-    "35": "Fortell om din kommunes største fiasko siste fire år?",
-    "36": "Har situasjonen i din kommune blitt bedre eller dårligere de siste fire årene? Ingen endring?",
-    "37": "Tittel",
-    "38": "ingress",
-    "39": "Sitat"
-};
 
 function getTitel(data) {
-    return data[37];
+    return data['Tittel'];
 }
 
 function getIngress(data) {
-    return data[38];
+    return data['ingress'];
 }
 
 function getSitat(data) {
-    return data[39];
+    return '«'+data['Sitat']+'»';
 }
 
-function getQ(id) {
-    return questions[id];
+function getQ(q) {
+    return '<strong>'+q+'</strong>';
 }
 
 function calcInbygger(y13, y17) {
@@ -206,13 +172,15 @@ function calcInbygger(y13, y17) {
 function printQA(q, a, list) {
     if (typeof list === undefined) list = false;
     if (a == '' || a == null || typeof a == undefined) return;
-    if (list) {
-        if (q == 16) a = (a.match(/-/) ? 'ned ' : 'opp ') + a.replace(/%/, "prosent") + " siden 2012";
 
-        $('.mode-map--desc').append('<li><strong>' + getQ(q) + ':</strong> ' + a + '</li>');
+    if (list) {
+        if (q == "Endring stalige overføringer"){
+            a = (a.match(/-/) ? 'ned ' : 'opp ') + a.replace(/%/, 'prosent') + " siden 2012";
+        }
+        $('.mode-map--desc').append('<li>' + getQ(q) +': '+ a + '</li>');
     } else {
         $('.mode-map--desc').append('<h3>' + getQ(q) + '</h3>');
-        $('.mode-map--desc').append('<p>' + a + '</p>');
+        $('.mode-map--desc').append('<p> - ' + a + '</p>');
     }
 }
 
@@ -231,15 +199,19 @@ function showInfo() {
         lastLayer = geoMap.getLayer(this.faceName);
     }
 
+    $('.mode-map--image').css('background-image', 'url(images/livingroom/'+this.faceName+'-1024.jpg)')
+
     $(infoTab).css('transform', '');
 
     // Add text to popup
-    $('.mode-map-info__bar--title').text(this.data.Ordfører + ' (' + this.pv + '), ' + this.data.Alder + 'år');
+    $('.mode-map-info__bar--title').text(this.data.Ordfører + ' (' + this.pv + '), ' + this.data.Alder + ' år');
 
-    var url = 'http://www.adressa.no/nyheter/sortrondelag/2017/08/11/Skal-avh%C3%B8re-ansatte-og-ledelsen-ved-Ler%C3%B8y-Midt-15139978.ece';
-    var ogimage = '123456789';
-    url += '?imageid=' + ogimage + '#kommune=' + this.data.ID;
-    $('.mode-map-info--ingress').html('<div class="fb-share-button" data-href="' + url + '" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=' + url + '?' + this.data.ID + '%26ogimage%3D' + ogimage + '&amp;src=sdkpreparse">Del på Facebook</a></div>');
+    var url = location.href;
+    url += '?imageid=' + this.data.imageid + '#kommune=' + this.faceName;
+    $('.mode-map-info--ingress').html('<blockquote class="sitat">'+getSitat(this.data)+'<blockquote>');
+    $('.mode-map-info--ingress').append('<div class="fb-share-button" data-href="' + url + '" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=' + url + '&amp;src=sdkpreparse">Del på Facebook</a></div>');
+
+
 
     // Intervju
     $('.mode-map--desc').html('<h1>' + getTitel(this.data) + '</h1>');
@@ -250,13 +222,15 @@ function showInfo() {
 
     // Fakta
     $('.mode-map--desc').append('<ul>');
-    $('.mode-map--desc').append('<li><strong>Innbyggertall</strong>: ' + calcInbygger(this.data[1], this.data[2]) + '</li>')
+    $('.mode-map--desc').append('<li><strong>Innbyggertall</strong>: ' + calcInbygger(this.data['Innbyggerantall 2013'], this.data['Innbyggerantall 2017']) + '</li>')
     for (var question in this.data) {
         if (infolist.indexOf(question) < 0) continue;
         var answer = this.data[question];
         printQA(question, this.data[question], true);
     }
     $('.mode-map--desc').append('</ul>');
+
+    $('.mode-map--desc').append('<div class="fb-share-button" data-href="' + url + '" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=' + url + '&amp;src=sdkpreparse">Del på Facebook</a></div>');
 
     // Set current active map polygon
     geoMap.getLayer(this.faceName).setStyle({

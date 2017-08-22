@@ -15,10 +15,16 @@ $parti-ll: gray;
 }
 
 .mode-map--image{
-    width: 100%;
+    width: calc(100% + 32px);
     height: 300px;
+    margin-left: u(-1);
+    margin-top: -1px;
     background-image: url('../images/oorjG.png');
     background-size: cover;
+    background-position: center;
+    @include breakpoint(mobile){
+        height: 56.25vw;
+    }
 }
 
 .mode-map-info{
@@ -42,10 +48,19 @@ $parti-ll: gray;
 
     &__content{
         height: calc(100% - 24px);
-        padding: u(2);
-        font-family: font(system);
+        font-family: font(headline);
+        padding: 0px u(1);
+        padding-bottom: u(3);
+        h3 {
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 28px;
+
+        }
         p {
             margin: 10px 0px;
+            font-size: 18px;
+            line-height: 27px;
         }
     }
     &__bar{
@@ -71,17 +86,19 @@ $parti-ll: gray;
     }
 }
 
-[class*='icon-face-']{
+$scale: .4;
+
+[class*='leaflet-marker-icon icon-face-']{
     display: block;
     position: absolute;
     border-radius: 50px;
-    width: u(2);
-    height: u(2);
     background-color: color(white);
     border: 1px solid color(white);
+    background-repeat: no-repeat;
+	background-size: 560px*$scale 560px*$scale;
+    background-position: 0px 0px;
     box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, .2);
-    background-position: 0px 10px;
-	background-image: url('../images/oorjG.png');
+	background-image: url('../images/sprite/ordforere-560.png');
     &.large{
         width: u(8);
         height: u(8);
@@ -106,7 +123,7 @@ $parti-ll: gray;
             background-position: percentage(3/3) 0px;
             background-color: $parti-sp;
         }
-        &-bygdeliste::after{
+        &-felleslista-for-bygdeutvikling::after{
             background-position: percentage(2/3) 0px;
             background-color: $parti-ll;
         }
@@ -122,14 +139,50 @@ $parti-ll: gray;
 
 }
 
-$i: 0;
-$j: 0;
-@each $kommune in 'hemne', 'snillfjord', 'hitra', 'froya', 'orland', 'agdenes', 'rissa', 'bjugn', 'afjord', 'roan', 'osen', 'oppdal', 'rennebu', 'meldal', 'orkdal', 'roros', 'holtalen', 'midtre_gauldal', 'melhus', 'skaun', 'klaebu', 'malvik', 'selbu', 'tydal', 'steinkjer', 'namsos', 'meraker', 'stjordal', 'frosta', 'leksvik', 'levanger', 'verdal', 'inderoy', 'verran', 'namdalseid', 'inderoy', 'snasa', 'lierne', 'royrvik', 'namsskogan', 'grong', 'hoylandet', 'overhalla', 'fosnes', 'flatanger', 'vikna', 'naeroy', 'leka' {
-    .icon-face-#{$kommune}{
-        background-position: (64px * $i) (64px * $j);
-    }
-    $i: $i + 1;
-    @if($i == 10){
-        $j: $j + 1;
-    }
-}
+.icon-face-aford{background-position: 0*$scale 0*$scale;} /* 80px 80px */
+.icon-face-roros{background-position: -80px*$scale 0*$scale;} /* 80px 80px */
+.icon-face-namsskogan{background-position: 0*$scale -80px*$scale;} /* 80px 80px */
+.icon-face-oppdal{background-position: -80px*$scale -80px*$scale;} /* 80px 80px */
+.icon-face-orkdal{background-position: -160px*$scale 0*$scale;} /* 80px 80px */
+.icon-face-orland{background-position: -160px*$scale -80px*$scale;} /* 80px 80px */
+.icon-face-osen{background-position: 0*$scale -160px*$scale;} /* 80px 80px */
+.icon-face-overhalla{background-position: -80px*$scale -160px*$scale;} /* 80px 80px */
+.icon-face-rennebu{background-position: -160px*$scale -160px*$scale;} /* 80px 80px */
+.icon-face-rissa{background-position: -240px*$scale 0*$scale;} /* 80px 80px */
+.icon-face-roan{background-position: -240px*$scale -80px*$scale;} /* 80px 80px */
+.icon-face-royrvik{background-position: -240px*$scale -160px*$scale;} /* 80px 80px */
+.icon-face-namdalseid{background-position: 0*$scale -240px*$scale;} /* 80px 80px */
+.icon-face-selbu{background-position: -80px*$scale -240px*$scale;} /* 80px 80px */
+.icon-face-skaun{background-position: -160px*$scale -240px*$scale;} /* 80px 80px */
+.icon-face-snasa{background-position: -240px*$scale -240px*$scale;} /* 80px 80px */
+.icon-face-snillfjord{background-position: -320px*$scale 0*$scale;} /* 80px 80px */
+.icon-face-steinkjer{background-position: -320px*$scale -80px*$scale;} /* 80px 80px */
+.icon-face-stjordal{background-position: -320px*$scale -160px*$scale;} /* 80px 80px */
+.icon-face-tydal{background-position: -320px*$scale -240px*$scale;} /* 80px 80px */
+.icon-face-verdal{background-position: 0*$scale -320px*$scale;} /* 80px 80px */
+.icon-face-verran{background-position: -80px*$scale -320px*$scale;} /* 80px 80px */
+.icon-face-namsos{background-position: -160px*$scale -320px*$scale;} /* 80px 80px */
+.icon-face-naeroy{background-position: -240px*$scale -320px*$scale;} /* 80px 80px */
+.icon-face-agdenes{background-position: -320px*$scale -320px*$scale;} /* 80px 80px */
+.icon-face-hoylandet{background-position: -400px*$scale 0*$scale;} /* 80px 80px */
+.icon-face-bjugn{background-position: -400px*$scale -80px*$scale;} /* 80px 80px */
+.icon-face-flatanger{background-position: -400px*$scale -160px*$scale;} /* 80px 80px */
+.icon-face-fosnes{background-position: -400px*$scale -240px*$scale;} /* 80px 80px */
+.icon-face-frosta{background-position: -400px*$scale -320px*$scale;} /* 80px 80px */
+.icon-face-froya{background-position: 0*$scale -400px*$scale;} /* 80px 80px */
+.icon-face-grong{background-position: -80px*$scale -400px*$scale;} /* 80px 80px */
+.icon-face-hemne{background-position: -160px*$scale -400px*$scale;} /* 80px 80px */
+.icon-face-hitra{background-position: -240px*$scale -400px*$scale;} /* 80px 80px */
+.icon-face-holtalen{background-position: -320px*$scale -400px*$scale;} /* 80px 80px */
+.icon-face-inderoy{background-position: -400px*$scale -400px*$scale;} /* 80px 80px */
+.icon-face-midtre_gauldal{background-position: -480px*$scale 0*$scale;} /* 80px 80px */
+.icon-face-klaebu{background-position: -480px*$scale -80px*$scale;} /* 80px 80px */
+.icon-face-leka{background-position: -480px*$scale -160px*$scale;} /* 80px 80px */
+.icon-face-leksvik{background-position: -480px*$scale -240px*$scale;} /* 80px 80px */
+.icon-face-levanger{background-position: -480px*$scale -320px*$scale;} /* 80px 80px */
+.icon-face-lierne{background-position: -480px*$scale -400px*$scale;} /* 80px 80px */
+.icon-face-malvik{background-position: 0*$scale -480px*$scale;} /* 80px 80px */
+.icon-face-meldal{background-position: -80px*$scale -480px*$scale;} /* 80px 80px */
+.icon-face-melhus{background-position: -160px*$scale -480px*$scale;} /* 80px 80px */
+.icon-face-meraker{background-position: -240px*$scale -480px*$scale;} /* 80px 80px */
+.icon-face-vikna{background-position: -320px*$scale -480px*$scale;} /* 80px 80px */

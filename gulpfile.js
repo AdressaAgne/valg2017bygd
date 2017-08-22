@@ -38,42 +38,18 @@ let options = {
     js_concat_some : ['js/filename1.js', 'js/filename2.js', 'js/etc.js'],
 
     images : {
-    	'**/*.{png,gif,jpg}': [
-    	{
-    		width: 1920,
-    		rename :  { suffix: '-1920' },
-    	}, {
-    		width: 1800,
-    		rename :  { suffix: '-1800' },
-    	}, {
-    		width: 1680,
-    		rename :  { suffix: '-1680' },
-    	}, {
-    		width: 1440,
-    		rename :  { suffix: '-1440' },
-    	}, {
-    		width: 1280,
-    		rename :  { suffix: '-1280' },
-    	}, {
-    		width: 1024,
-    		rename :  { suffix: '-1024' },
-    	}, {
-    		width: 800,
-    		rename :  { suffix: '-800' },
-    	}, {
-    		width: 640,
-    		rename :  { suffix: '-640' },
-    	}, {
-    		width: 480,
-    		rename :  { suffix: '-480' },
-    	}, {
-    		width: 320,
-    		rename :  { suffix: '-320' },
-    	}, {
-    		width: 160,
-    	}
-    	]
-    },
+       '**/*.{png,gif,jpg}': [
+           {
+               width: 1024,
+               rename :  { suffix: '-1024' },
+           }, {
+               width: 560,
+               rename :  { suffix: '-560' },
+           }, {
+               width: 160,
+           }
+       ]
+   },
 };
 
 //--------------------------------------------------//
@@ -202,7 +178,6 @@ gulp.task('dist:compress', function() {
 // Build distribution javascript
 gulp.task('dist:js', function() {
 	return gulp.src(options.source_folder+'/js/'+options.js_concat_name)
-	.pipe(uglify())
 	.pipe(gulp.dest(options.destination_folder+'/js/'));
 });
 
