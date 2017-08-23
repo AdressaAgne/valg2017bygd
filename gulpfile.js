@@ -178,6 +178,7 @@ gulp.task('dist:compress', function() {
 // Build distribution javascript
 gulp.task('dist:js', function() {
 	return gulp.src(options.source_folder+'/js/'+options.js_concat_name)
+    .pipe(uglify())
 	.pipe(gulp.dest(options.destination_folder+'/js/'));
 });
 

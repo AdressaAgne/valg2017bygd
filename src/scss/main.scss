@@ -4,13 +4,6 @@
 @import "map";
 @import "list"; // Sass file
 
-body,
-html {
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
-}
-
 blockquote.sitat{
 	font: font(system);
 	font-style: italic;
@@ -81,11 +74,7 @@ blockquote.sitat{
 	@include breakpoint(mobile) {
 		.mode-map, .mode-list {
 			width: 100%;
-			height: 100%;
-			position: absolute;
-			top: u(3) !important;
-			left: 0px;
-
+			height: 80vh;
 			&.hide {
 				display: none;
 			}

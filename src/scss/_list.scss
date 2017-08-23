@@ -23,7 +23,9 @@ $scale: .5;
 		overflow: scroll;
 
 		> li {
+			width: 100%;
 			a {
+				width: 100%;
 				display: flex;
 				cursor: pointer;
 				transition: transition(fast);

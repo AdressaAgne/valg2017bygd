@@ -1,4 +1,46 @@
-const parti = {
+requirejs.config({
+    //By default load any module IDs from js/lib
+    baseUrl: 'scripts/libs',
+    //except, if the module ID starts with "app",
+    //load it from the js/app directory. paths
+    //config is relative to the baseUrl, and
+    //never includes a ".js" extension since
+    //the paths config could be for a directory.
+    paths: {
+        app: '../'
+    }
+});
+
+requirejs(['jquery', 'https://unpkg.com/leaflet@1.1.0/dist/leaflet.js'],function($, L){
+
+var domain = 'http://172.22.177.48/';
+//var domain = 'http://spesial.adressa.no/valgkart2017/';
+
+var breakpoints = {
+    mobile: 737,
+    tablet: 1024,
+    desktop: 1280,
+}
+
+function log(args){
+    //console.log(args);
+}
+
+var w = $(window).width();
+window.onresize = function(e) {
+    w = $(window).width();
+}
+
+function get_permalink() {
+    var url = location.href;
+    if (url.match(/(.*)(\&kommune=([a-z]+)(.*))/)) {
+        return url.replace(/(.*)(\&kommune=([a-z]+)(.*))/g, "$3");
+    }
+    return false;
+}
+
+
+var parti = {
     "ap": '#E4002B',
     "h": '#004E8B',
     "sp": '#69BE28',
@@ -22,12 +64,11 @@ CartoDB_PositronNoLabels.addTo(map);
 // backdata helping with mobile slideback feature
 var backData = null;
 var list = $('.mode-list > ul');
-var geoMap;
 
 //Todo: add json/geosjon as jsfiles to include under gulp
-$.getJSON('data/kommuner.geojson').done(function(kommuner) {
-    $.getJSON('data/kommune.json').done(function(data) {
-        geoMap = L.geoJSON(kommuner, {
+$.getJSON(domain+'data/kommuner.geojson').done(function(kommuner) {
+    $.getJSON(domain+'data/kommune.json').done(function(data) {
+        window.geoMap = L.geoJSON(kommuner, {
             onEachFeature: function(f, layer) {
                 var faceName = f.properties.navn;
                 faceName = faceName.toLowerCase().replace(/ø/g, "o").replace(/å/g, "a").replace(/æ/g, "ae").replace(/\s/g, "_");
@@ -61,16 +102,17 @@ $.getJSON('data/kommuner.geojson').done(function(kommuner) {
 
                     var parti_visual = info.data.Parti.charAt(0).toUpperCase() + info.data.Parti.slice(1);
                     info.pv = parti_visual;
-                    $(list).prepend(`<li data-id="` + faceName + `" data-party="` + info.data.Parti.toLowerCase().replace(/\s/g, '-') + `" data-status="better" data-kommune="` + info.data.Kommune.toLowerCase() + `" data-head="` + info.data.Ordfører.toLowerCase().replace(/\s/g, '') + `">
-	                    <a>
-	                        <figure class="icon-face-` + faceName + `">
-	                        </figure>
-	                        <ul>
-	                            <li class="name">` + info.data.Ordfører + ` (` + parti_visual + `), ` + info.data.Alder + ` år</li>
-	                            <li class="county">` + info.data.Kommune + `</li>
-	                        </ul>
-	                    </a>
-	                </li>`);
+                    $(list).prepend(
+                        '<li data-id="' + faceName + '" data-party="' + info.data.Parti.toLowerCase().replace(/\s/g, '-') + '" data-status="better" data-kommune="' + info.data.Kommune.toLowerCase() + '" data-head="' + info.data.Ordfører.toLowerCase().replace(/\s/g, '') + '">' +
+	                    '<a>'+
+	                        '<figure class="icon-face-' + faceName + '">'+
+	                        '</figure>'+
+	                        '<ul>'+
+	                            '<li class="name">' + info.data.Ordfører + ' (' + parti_visual + '), ' + info.data.Alder + ' år</li>'+
+	                            '<li class="county">' + info.data.Kommune + '</li>'+
+	                        '</ul>'+
+	                    '</a>'+
+	                '</li>');
                     info.elm = $('[data-id=' + faceName + ']');
                     backData = info;
 
@@ -141,15 +183,6 @@ var infolist = [
     "Antall nedlagte bruk siste..(SSB)",
 ];
 
-
-function getTitel(data) {
-    return data['Tittel'];
-}
-
-function getIngress(data) {
-    return data['ingress'];
-}
-
 function getSitat(data) {
     return '«'+data['Sitat']+'»';
 }
@@ -189,32 +222,32 @@ function showInfo() {
     // remove all current active elements
     hide(false);
     // Remove active map polygon
-    if (lastLayer === null) {
-        lastLayer = geoMap.getLayer(this.faceName);
+    if (lastLayer === null || typeof lastLayer === undefined) {
+        lastLayer = window.geoMap.getLayer(this.faceName);
     } else {
         lastLayer.setStyle({
             weight: 1,
             fillOpacity: .1
         });
-        lastLayer = geoMap.getLayer(this.faceName);
+        lastLayer = window.geoMap.getLayer(this.faceName);
     }
 
-    $('.mode-map--image').css('background-image', 'url(images/livingroom/'+this.faceName+'-1024.jpg)')
+    $('.mode-map--image').css('background-image', 'url(http://spesial.adressa.no/valgkart2017/images/livingroom/'+this.faceName+'-560.jpg)')
 
     $(infoTab).css('transform', '');
 
     // Add text to popup
     $('.mode-map-info__bar--title').text(this.data.Ordfører + ' (' + this.pv + '), ' + this.data.Alder + ' år');
 
-    var url = location.href;
-    url += '?imageid=' + this.data.imageid + '#kommune=' + this.faceName;
-    $('.mode-map-info--ingress').html('<blockquote class="sitat">'+getSitat(this.data)+'<blockquote>');
+    var url = 'http://www.adressa.no/pluss/nyheter/article15191195.ece'; // replace with real url
+    url += '?imageid=' + this.data.imageid + '&kommune=' + this.faceName;
+    $('.mode-map-info--ingress').html('<small>'+this.data['Kommune']+'</small><blockquote class="sitat">'+getSitat(this.data)+'<blockquote>');
     $('.mode-map-info--ingress').append('<div class="fb-share-button" data-href="' + url + '" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=' + url + '&amp;src=sdkpreparse">Del på Facebook</a></div>');
 
 
 
     // Intervju
-    $('.mode-map--desc').html('<h1>' + getTitel(this.data) + '</h1>');
+    $('.mode-map--desc').html('');
     for (var question in this.data) {
         if (blacklist.indexOf(question) > -1 || infolist.indexOf(question) > -1) continue;
         printQA(question, this.data[question]);
@@ -233,7 +266,7 @@ function showInfo() {
     $('.mode-map--desc').append('<div class="fb-share-button" data-href="' + url + '" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=' + url + '&amp;src=sdkpreparse">Del på Facebook</a></div>');
 
     // Set current active map polygon
-    geoMap.getLayer(this.faceName).setStyle({
+    window.geoMap.getLayer(this.faceName).setStyle({
         weight: 2,
         fillOpacity: .5
     });
@@ -246,7 +279,7 @@ function showInfo() {
         $(infoTab).slideDown(200);
         $('.mode-list ul').animate({
             scrollTop: $('.mode-list ul').scrollTop() + $(this.elm).position().top - 48,
-        }, 200);
+        }, 0);
         $('.mode-map-info__bar').hide();
         return;
     }
@@ -359,4 +392,5 @@ $('#switch_mode-list').click(function() {
 $('#switch_mode-map').click(function() {
     $('.mode-map').removeClass('hide');
     $('.mode-list').removeClass('show');
+});
 });
