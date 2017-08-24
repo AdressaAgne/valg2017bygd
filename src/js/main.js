@@ -11,7 +11,7 @@ requirejs.config({
     }
 });
 
-requirejs(['jquery', 'https://unpkg.com/leaflet@1.1.0/dist/leaflet.js'],function($, L){
+requirejs(['jquery', 'https://unpkg.com/leaflet@1.1.0/dist/leaflet.js'], function($, L){
 
 var domain = 'http://172.22.177.48/';
 //var domain = 'http://spesial.adressa.no/valgkart2017/';
@@ -93,7 +93,7 @@ $.getJSON(domain+'data/kommuner.geojson').done(function(kommuner) {
                     }).on('click', function() {
                         showInfo.bind(info)();
                     })
-                    layer.on('click', function(e) {
+                    layer.on('click', function() {
                         showInfo.bind(info)();
                     });
                     marker.addTo(map);
